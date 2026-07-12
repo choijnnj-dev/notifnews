@@ -10,7 +10,7 @@ Env vars required:
   NTFY_TOPIC       - your ntfy.sh topic name (e.g. "johnadams-india-digest")
 Optional:
   NTFY_SERVER      - default https://ntfy.sh
-  GEMINI_MODEL     - default gemini-2.5-flash
+  GEMINI_MODEL     - default gemini-flash-latest
 """
 
 import os
@@ -27,8 +27,6 @@ from datetime import datetime, timezone
 # ---------------------------------------------------------------------------
 MACRO_LEGISLATIVE_FEEDS = [
     ("Economic Times - Economy", "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"),
-    ("Business Standard - Economy", "https://www.business-standard.com/rss/economy-102.rss"),
-    ("Business Standard - Finance", "https://www.business-standard.com/rss/finance-103.rss"),
     ("Livemint - Economy", "https://www.livemint.com/rss/economy"),
     ("Moneycontrol - Economy", "https://www.moneycontrol.com/rss/economy.xml"),
     ("PIB India - Releases", "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"),
@@ -45,7 +43,7 @@ GEOPOLITICAL_FEEDS = [
 
 MAX_ITEMS_PER_FEED = 12
 FEED_TIMEOUT_SECS = 15
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
 
 
 def fetch_feed(name, url):

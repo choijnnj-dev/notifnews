@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-India Macro/Geopolitical News Digest
-- Pulls headlines from a set of RSS feeds (macro/legislative + geopolitical)
-- Sends the raw headlines to Gemini (Flash, free tier) to rank/summarize
-- Posts a compact top-5 + top-5 digest to ntfy.sh
+India Markets Impact Digest
+- Pulls headlines from a set of RSS feeds (macro, legislative, geopolitical)
+- Sends the raw headlines to Gemini (Flash, free tier) to pick and summarize
+- Posts a compact 5 short-term + 5 long-term digest to ntfy.sh
 
 Env vars required:
   GEMINI_API_KEY   - Google AI Studio key (free tier)
@@ -22,18 +22,15 @@ import feedparser
 from datetime import datetime, timezone
 
 # ---------------------------------------------------------------------------
-# Feed sources. Each feed is tagged with an intended bucket so we can still
-# make a sane fallback split even if Gemini's classification is fuzzy.
+# Feed sources. One pool, mixing macro/legislative/geopolitical sources -
+# Gemini does the categorizing and time-horizon sorting, not the feed choice.
 # ---------------------------------------------------------------------------
-MACRO_LEGISLATIVE_FEEDS = [
+FEEDS = [
     ("Economic Times - Economy", "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"),
     ("Livemint - Economy", "https://www.livemint.com/rss/economy"),
     ("Moneycontrol - Economy", "https://www.moneycontrol.com/rss/economy.xml"),
     ("PIB India - Releases", "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"),
     ("RBI - Press Releases", "https://www.rbi.org.in/pressreleases_rss.xml"),
-]
-
-GEOPOLITICAL_FEEDS = [
     ("The Hindu - National", "https://www.thehindu.com/news/national/feeder/default.rss"),
     ("The Hindu - International", "https://www.thehindu.com/news/international/feeder/default.rss"),
     ("Economic Times - World", "https://economictimes.indiatimes.com/news/international/world-news/rssfeeds/1898055973.cms"),
@@ -76,43 +73,45 @@ def collect_headlines(feed_list):
     return all_items
 
 
-def build_gemini_prompt(macro_items, geo_items):
-    def fmt(items):
-        lines = []
-        for i, it in enumerate(items):
-            lines.append(f"{i+1}. [{it['source']}] {it['title']} — {it['summary']}")
-        return "\n".join(lines) if lines else "(no items fetched)"
-
+def build_gemini_prompt(items):
+    lines = [f"{i+1}. [{it['source']}] {it['title']} — {it['summary']}" for i, it in enumerate(items)]
+    candidates = "\n".join(lines) if lines else "(no items fetched)"
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    prompt = f"""You are a financial news editor preparing a same-day briefing for an Indian equities trader.
-Today's date: {today}.
+    prompt = f"""You are a financial news editor preparing a same-day briefing for an Indian
+equities trader. Today's date: {today}.
 
-Below are raw headlines pulled from RSS feeds in two buckets. Some may be duplicates,
-irrelevant (sports, entertainment, local crime), or low-signal — ignore those.
+Below are raw candidate headlines pulled from RSS feeds covering macroeconomics,
+legislative/policy, and geopolitics. Some are duplicates, irrelevant (sports,
+entertainment, local crime), or low-signal — ignore those.
 
-=== MACRO / LEGISLATIVE / POLICY CANDIDATE HEADLINES ===
-{fmt(macro_items)}
-
-=== GEOPOLITICAL CANDIDATE HEADLINES ===
-{fmt(geo_items)}
+=== CANDIDATE HEADLINES ===
+{candidates}
 
 Task:
-1. Select the TOP 5 macroeconomic and legislative/policy stories most relevant to
-   someone trading Indian stocks today (RBI policy, inflation data, budget/tax
-   changes, new bills/regulations, corporate law, trade policy, fiscal data, etc).
-2. Select the TOP 5 geopolitical stories most relevant to Indian markets
-   (border tensions, diplomatic shifts, global conflicts affecting oil/trade,
-   major foreign policy moves, sanctions, elections in major trade partners, etc).
-3. For each selected story write ONE short punchy line (max ~18 words) explaining
-   why it matters for markets/traders. No fluff, no repeating the headline verbatim.
-4. If fewer than 5 genuinely relevant stories exist in a bucket, return fewer —
-   do not pad with irrelevant filler.
+Select stories that matter for Indian stock markets — mix macroeconomic
+(inflation, RBI policy, fiscal data, trade), legislative/policy (new bills,
+regulations, budget/tax changes, corporate law), and geopolitical (border
+tensions, global conflicts, sanctions, diplomacy affecting trade/oil) stories
+freely across both lists below, whichever fits the time horizon better.
+
+1. SHORT-TERM (5 items): stories likely to move markets in the next 1-5
+   trading days — data releases, rate decisions, sudden geopolitical flare-ups,
+   immediate policy announcements.
+2. LONG-TERM (5 items): stories that shape market direction over months/years —
+   structural reforms, multi-year trade/diplomatic shifts, long-run fiscal or
+   regulatory changes.
+3. For each: a SHORT headline (max ~10 words, your own concise phrasing, not
+   copied verbatim) and ONE line on market impact (max ~12 words). Be terse,
+   no filler words, no repeating the headline in the impact line.
+4. Tag each item's category as one of: "macro", "legislative", "geopolitical".
+5. If fewer than 5 genuinely relevant stories exist for a horizon, return fewer
+   rather than padding with filler.
 
 Respond ONLY with JSON matching this exact shape, nothing else:
 {{
-  "macro_legislative": [{{"headline": "...", "why_it_matters": "...", "source": "..."}}],
-  "geopolitical": [{{"headline": "...", "why_it_matters": "...", "source": "..."}}]
+  "short_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "..."}}],
+  "long_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "..."}}]
 }}
 """
     return prompt
@@ -134,17 +133,22 @@ def call_gemini(prompt, api_key):
     return json.loads(text)
 
 
+CATEGORY_TAG = {"macro": "M", "legislative": "L", "geopolitical": "G"}
+
+
 def format_ntfy_message(digest):
-    lines = []
-    lines.append("📊 MACRO / LEGISLATIVE")
-    for i, item in enumerate(digest.get("macro_legislative", [])[:5], 1):
-        lines.append(f"{i}. {item['headline']}")
-        lines.append(f"   → {item['why_it_matters']}")
+    def block(title, items):
+        lines = [title]
+        for i, item in enumerate(items[:5], 1):
+            tag = CATEGORY_TAG.get(item.get("category", "").lower(), "?")
+            lines.append(f"{i}. [{tag}] {item['headline']} — {item['impact']}")
+        return lines
+
+    lines = block("⚡ SHORT-TERM (1-5 days)", digest.get("short_term", []))
     lines.append("")
-    lines.append("🌍 GEOPOLITICAL")
-    for i, item in enumerate(digest.get("geopolitical", [])[:5], 1):
-        lines.append(f"{i}. {item['headline']}")
-        lines.append(f"   → {item['why_it_matters']}")
+    lines += block("🧭 LONG-TERM (months+)", digest.get("long_term", []))
+    lines.append("")
+    lines.append("M=macro · L=legislative · G=geopolitical")
     return "\n".join(lines)
 
 
@@ -154,7 +158,7 @@ def send_to_ntfy(message, topic, server):
         f"{server}/{topic}",
         data=message.encode("utf-8"),
         headers={
-            "Title": f"India Macro & Geopolitics — {today}".encode("utf-8"),
+            "Title": f"India Markets Digest — {today}".encode("utf-8"),
             "Tags": "india,chart_with_upwards_trend,earth_asia",
             "Priority": "default",
         },
@@ -175,19 +179,15 @@ def main():
         print("ERROR: NTFY_TOPIC not set", file=sys.stderr)
         sys.exit(1)
 
-    print("Fetching macro/legislative feeds...")
-    macro_items = collect_headlines(MACRO_LEGISLATIVE_FEEDS)
-    print(f"  -> {len(macro_items)} items")
+    print("Fetching feeds...")
+    items = collect_headlines(FEEDS)
+    print(f"  -> {len(items)} items")
 
-    print("Fetching geopolitical feeds...")
-    geo_items = collect_headlines(GEOPOLITICAL_FEEDS)
-    print(f"  -> {len(geo_items)} items")
-
-    if not macro_items and not geo_items:
+    if not items:
         print("ERROR: all feeds failed, nothing to summarize", file=sys.stderr)
         sys.exit(1)
 
-    prompt = build_gemini_prompt(macro_items, geo_items)
+    prompt = build_gemini_prompt(items)
 
     print(f"Calling Gemini ({GEMINI_MODEL})...")
     for attempt in range(3):

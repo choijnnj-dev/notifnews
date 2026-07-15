@@ -243,15 +243,19 @@ def main():
     prompt = build_gemini_prompt(items)
 
     print(f"Calling Gemini ({GEMINI_MODEL})...")
-    for attempt in range(3):
+    max_attempts = 5
+    for attempt in range(max_attempts):
         try:
             digest = call_gemini(prompt, api_key)
             break
         except Exception as e:
-            print(f"[warn] Gemini call failed (attempt {attempt+1}/3): {e}", file=sys.stderr)
-            time.sleep(5)
+            wait = min(60, (2 ** attempt) * 5)  # 5s, 10s, 20s, 40s, 60s
+            print(f"[warn] Gemini call failed (attempt {attempt+1}/{max_attempts}): {e}", file=sys.stderr)
+            if attempt < max_attempts - 1:
+                print(f"[info] retrying in {wait}s...", file=sys.stderr)
+                time.sleep(wait)
     else:
-        print("ERROR: Gemini call failed after 3 attempts", file=sys.stderr)
+        print(f"ERROR: Gemini call failed after {max_attempts} attempts", file=sys.stderr)
         sys.exit(1)
 
     tickers = collect_tickers(digest)

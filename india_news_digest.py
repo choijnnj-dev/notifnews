@@ -2,7 +2,10 @@
 """
 India Markets Impact Digest
 - Pulls headlines from a set of RSS feeds (macro, legislative, geopolitical)
-- Sends the raw headlines to Gemini (Flash, free tier) to pick and summarize
+- Sends the raw headlines to Gemini (Flash, free tier) to pick, summarize,
+  and infer top affected NSE stocks per story
+- Looks up real live price moves for those stocks via Yahoo Finance (free,
+  no API key) to attach actual confirmed price action
 - Posts a compact 5 short-term + 5 long-term digest to ntfy.sh
 
 Env vars required:
@@ -19,6 +22,7 @@ import json
 import time
 import requests
 import feedparser
+import yfinance as yf
 from datetime import datetime, timezone
 
 # ---------------------------------------------------------------------------
@@ -41,6 +45,7 @@ FEEDS = [
 MAX_ITEMS_PER_FEED = 12
 FEED_TIMEOUT_SECS = 15
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
+CATEGORY_TAG = {"macro": "M", "legislative": "L", "geopolitical": "G"}
 
 
 def fetch_feed(name, url):
@@ -105,13 +110,19 @@ freely across both lists below, whichever fits the time horizon better.
    copied verbatim) and ONE line on market impact (max ~12 words). Be terse,
    no filler words, no repeating the headline in the impact line.
 4. Tag each item's category as one of: "macro", "legislative", "geopolitical".
-5. If fewer than 5 genuinely relevant stories exist for a horizon, return fewer
+5. For each item, name the TOP 3 Indian stocks most likely affected (best
+   judgment based on sector/company exposure — this is an inference, not a
+   guarantee). Use the exact NSE ticker symbol (e.g. "RELIANCE", "TCS",
+   "HDFCBANK") as listed on the NSE, not the full company name, and only
+   real, currently-listed NSE tickers — never invent one. Give fewer than 3
+   if you aren't confident in more.
+6. If fewer than 5 genuinely relevant stories exist for a horizon, return fewer
    rather than padding with filler.
 
 Respond ONLY with JSON matching this exact shape, nothing else:
 {{
-  "short_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "..."}}],
-  "long_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "..."}}]
+  "short_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "...", "stocks": ["TICKER1", "TICKER2", "TICKER3"]}}],
+  "long_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "...", "stocks": ["TICKER1", "TICKER2", "TICKER3"]}}]
 }}
 """
     return prompt
@@ -133,15 +144,56 @@ def call_gemini(prompt, api_key):
     return json.loads(text)
 
 
-CATEGORY_TAG = {"macro": "M", "legislative": "L", "geopolitical": "G"}
+def collect_tickers(digest):
+    tickers = set()
+    for bucket in ("short_term", "long_term"):
+        for item in digest.get(bucket, []):
+            for t in item.get("stocks", []) or []:
+                if t:
+                    tickers.add(t.strip().upper())
+    return tickers
 
 
-def format_ntfy_message(digest):
+def fetch_price_moves(tickers):
+    """Look up today's % move for each NSE ticker via Yahoo Finance.
+    Never raises - any ticker that fails to resolve is just omitted,
+    since a bad/delisted ticker shouldn't break the whole digest."""
+    moves = {}
+    for ticker in tickers:
+        try:
+            yf_symbol = f"{ticker}.NS"
+            info = yf.Ticker(yf_symbol).fast_info
+            last = info.get("last_price")
+            prev_close = info.get("previous_close")
+            if last is not None and prev_close:
+                pct = ((last - prev_close) / prev_close) * 100
+                arrow = "▲" if pct >= 0 else "▼"
+                moves[ticker] = f"{arrow}{abs(pct):.1f}%"
+        except Exception as e:
+            print(f"[warn] price lookup failed for '{ticker}': {e}", file=sys.stderr)
+    return moves
+
+
+def format_stock_tags(stocks, price_moves):
+    if not stocks:
+        return ""
+    tags = []
+    for t in stocks[:3]:
+        t = t.strip().upper()
+        move = price_moves.get(t)
+        tags.append(f"{t} {move}" if move else t)
+    return " | ".join(tags)
+
+
+def format_ntfy_message(digest, price_moves):
     def block(title, items):
         lines = [title]
         for i, item in enumerate(items[:5], 1):
             tag = CATEGORY_TAG.get(item.get("category", "").lower(), "?")
             lines.append(f"{i}. [{tag}] {item['headline']} — {item['impact']}")
+            stock_line = format_stock_tags(item.get("stocks", []), price_moves)
+            if stock_line:
+                lines.append(f"   🏷 {stock_line}")
         return lines
 
     lines = block("⚡ SHORT-TERM (1-5 days)", digest.get("short_term", []))
@@ -149,6 +201,7 @@ def format_ntfy_message(digest):
     lines += block("🧭 LONG-TERM (months+)", digest.get("long_term", []))
     lines.append("")
     lines.append("M=macro · L=legislative · G=geopolitical")
+    lines.append("Stocks = AI-inferred exposure, not verified causation")
     return "\n".join(lines)
 
 
@@ -201,7 +254,12 @@ def main():
         print("ERROR: Gemini call failed after 3 attempts", file=sys.stderr)
         sys.exit(1)
 
-    message = format_ntfy_message(digest)
+    tickers = collect_tickers(digest)
+    print(f"Looking up live price moves for {len(tickers)} tickers...")
+    price_moves = fetch_price_moves(tickers)
+    print(f"  -> resolved {len(price_moves)}/{len(tickers)}")
+
+    message = format_ntfy_message(digest, price_moves)
     print("\n--- DIGEST ---")
     print(message)
     print("--------------\n")

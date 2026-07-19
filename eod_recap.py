@@ -49,7 +49,7 @@ def grade_predictions(stocks):
         baseline = s["baseline_price"]
         actual_close = snap["last"]
         actual_pct = ((actual_close - baseline) / baseline) * 100
-        predicted_pct = s["predicted_pct"]
+        predicted_pct = s["predicted_pct_today"]
         direction_correct = (predicted_pct >= 0) == (actual_pct >= 0)
         graded.append({
             **s,
@@ -83,7 +83,7 @@ def format_ntfy_message(graded, no_data_count):
             for g in preds:
                 mark = "✅" if g["direction_correct"] else "❌"
                 lines.append(
-                    f"   {mark} {g['ticker']}: predicted {g['predicted_pct']:+.1f}%, "
+                    f"   {mark} {g['ticker']}: predicted {g['predicted_pct_today']:+.1f}%, "
                     f"actual {g['actual_pct']:+.1f}%"
                 )
         lines.append("")

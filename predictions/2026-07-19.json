@@ -1,0 +1,89 @@
+{
+  "date": "2026-07-19",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US-Iran military clashes escalate in the Middle East",
+        "impact": "Spiking crude prices will hurt oil refiners but benefit domestic explorers.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainers": [],
+        "losers": []
+      },
+      {
+        "headline": "India routes energy imports through UAE to avoid Hormuz risks",
+        "impact": "Boosts port operators handling alternative routes; increases shipping insurance costs.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainers": [],
+        "losers": []
+      },
+      {
+        "headline": "RBI schedules Variable Rate Repo auction to ease liquidity",
+        "impact": "Eases short-term banking system liquidity, supporting banking stocks marginally.",
+        "category": "macro",
+        "source": "RBI - Press Releases",
+        "gainers": [],
+        "losers": []
+      },
+      {
+        "headline": "July rains reduce monsoon deficit but crop risks remain",
+        "impact": "Boosts immediate sentiment for fertilizer and agrochemical manufacturers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainers": [],
+        "losers": []
+      },
+      {
+        "headline": "US tightens visa rules for Indian students and professionals",
+        "impact": "Negative sentiment for IT companies relying on cross-border talent mobility.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainers": [],
+        "losers": []
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Cabinet approves massive \u20b91.27 trillion Semiconductor Mission 2.0",
+        "impact": "Long-term structural boost for domestic electronics manufacturers and chip designers.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainers": [],
+        "losers": []
+      },
+      {
+        "headline": "NTPC joint venture floats \u20b928,000 crore nuclear plant tender",
+        "impact": "Expands nuclear energy footprint, benefiting power generation and heavy engineering.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainers": [],
+        "losers": []
+      },
+      {
+        "headline": "Government plans next phase of food processing PLI scheme",
+        "impact": "Enhances margins and capacity expansion for major packaged food players.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainers": [],
+        "losers": []
+      },
+      {
+        "headline": "Government plans linking land records with Unified Lending Interface",
+        "impact": "Lowers credit risk and speeds up loan disbursals for rural lenders.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainers": [],
+        "losers": []
+      },
+      {
+        "headline": "Gujarat leads NITI Aayog Investment Friendliness Index 2026",
+        "impact": "Attracts long-term industrial capex, benefiting state-based infrastructure and utility firms.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainers": [],
+        "losers": []
+      }
+    ]
+  }
+}

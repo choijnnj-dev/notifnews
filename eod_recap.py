@@ -26,14 +26,16 @@ MAX_HISTORY_RUNS = 30
 
 
 def collect_predicted_stocks(digest):
-    """Flattens gainers/losers across all items into one list, tagged with
-    which story they came from."""
+    """Flattens the gainer/loser predictions across all items into one list,
+    tagged with which story and horizon they came from."""
     out = []
     for bucket in ("short_term", "long_term"):
+        horizon = "short_term" if bucket == "short_term" else "long_term"
         for item in digest.get(bucket, []):
-            for key in ("gainers", "losers"):
-                for stock in item.get(key, []):
-                    out.append({**stock, "headline": item.get("headline", "")})
+            for key in ("gainer", "loser"):
+                stock = item.get(key)
+                if stock:
+                    out.append({**stock, "headline": item.get("headline", ""), "horizon": horizon})
     return out
 
 
@@ -66,16 +68,29 @@ def format_ntfy_message(graded, no_data_count):
     avg_err = sum(g["abs_error"] for g in graded) / len(graded)
 
     lines = [f"📋 RECAP — {hits}/{len(graded)} calls right, avg error {avg_err:.2f}pp", ""]
-    for g in graded:
-        mark = "✅" if g["direction_correct"] else "❌"
-        lines.append(
-            f"{mark} {g['ticker']}: predicted {g['predicted_pct']:+.1f}%, "
-            f"actual {g['actual_pct']:+.1f}%"
-        )
-    if no_data_count:
+
+    for horizon, label in (("short_term", "⚡ SHORT-TERM"), ("long_term", "🧭 LONG-TERM")):
+        bucket = [g for g in graded if g["horizon"] == horizon]
+        if not bucket:
+            continue
+        lines.append(label)
+        # group the gainer+loser predictions back under their shared headline
+        by_headline = {}
+        for g in bucket:
+            by_headline.setdefault(g["headline"], []).append(g)
+        for i, (headline, preds) in enumerate(by_headline.items(), 1):
+            lines.append(f"{i}. {headline}")
+            for g in preds:
+                mark = "✅" if g["direction_correct"] else "❌"
+                lines.append(
+                    f"   {mark} {g['ticker']}: predicted {g['predicted_pct']:+.1f}%, "
+                    f"actual {g['actual_pct']:+.1f}%"
+                )
         lines.append("")
+
+    if no_data_count:
         lines.append(f"({no_data_count} prediction(s) couldn't be graded - no price data)")
-    lines.append("")
+        lines.append("")
     lines.append("Feeds into tomorrow's calibration note automatically.")
     return "\n".join(lines)
 

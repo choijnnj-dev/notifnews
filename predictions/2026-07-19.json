@@ -3,80 +3,86 @@
   "digest": {
     "short_term": [
       {
-        "headline": "US-Iran military conflict escalates with strikes in Kuwait and Jordan",
-        "impact": "Crude oil price spike will hurt refiners and paint manufacturers.",
+        "headline": "US-Iran war escalates as missiles strike Gulf military bases",
+        "impact": "Crude oil price spike benefits domestic explorers but hurts refiners.",
         "category": "geopolitical",
-        "source": "Indian Express - World",
+        "source": "The Hindu - International",
         "gainer": null,
         "loser": null
       },
       {
-        "headline": "India reroutes energy shipments via UAE to bypass Hormuz risks",
-        "impact": "Higher freight costs and logistics adjustments will pressure oil importers.",
+        "headline": "India routes energy imports through UAE to avoid Hormuz",
+        "impact": "Shipping firms adapt while oil marketing companies face higher freight costs.",
         "category": "geopolitical",
-        "source": "Livemint - Economy",
+        "source": "Livemint",
         "gainer": null,
         "loser": null
       },
       {
-        "headline": "Cabinet approves \u20b91.27 trillion for Semiconductor Mission 2.0",
-        "impact": "Capital subsidies boost domestic electronics and chip packaging players.",
-        "category": "legislative",
-        "source": "Livemint - Economy",
-        "gainer": null
-      },
-      {
-        "headline": "NTPC joint venture floats \u20b928,000 crore nuclear plant tender",
-        "impact": "Major order inflows for domestic heavy engineering and power equipment.",
-        "category": "legislative",
-        "source": "Livemint - Economy",
-        "gainer": null,
-        "loser": null
-      },
-      {
-        "headline": "Monsoon deficit shrinks to 19.3% but crop risks persist",
-        "impact": "Uneven rainfall keeps food inflation high, impacting rural consumer demand.",
+        "headline": "RBI announces VRR auction to ease banking system liquidity",
+        "impact": "Short-term liquidity injection supports private banks over public lenders.",
         "category": "macro",
-        "source": "Livemint - Economy",
+        "source": "RBI - Press Releases",
+        "gainer": null,
+        "loser": null
+      },
+      {
+        "headline": "Monsoon deficit narrows to 19% but crop risks persist",
+        "impact": "Uneven rains boost fertilizer demand but threaten FMCG margins.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": null,
+        "loser": null
+      },
+      {
+        "headline": "US tightens visa rules for Indian students and professionals",
+        "impact": "Negative sentiment hits major IT exporters reliant on onsite talent.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
         "gainer": null,
         "loser": null
       }
     ],
     "long_term": [
       {
-        "headline": "US tightens visa rules for Indian students and professionals",
-        "impact": "Long-term talent acquisition and onsite delivery costs rise for IT.",
-        "category": "geopolitical",
-        "source": "The Hindu - International",
+        "headline": "Cabinet approves massive funding for Semiconductor Mission 2.0",
+        "impact": "Long-term boost for domestic electronics manufacturing and chip suppliers.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": null,
         "loser": null
       },
       {
-        "headline": "Gujarat tops NITI Aayog Investment Friendliness Index 2026",
-        "impact": "Sustained industrial investment flows benefit state-based infrastructure players.",
-        "category": "macro",
-        "source": "Economic Times - Economy",
-        "gainer": null
-      },
-      {
-        "headline": "Deloitte projects India GDP growth at 6.5-6.8% for FY27",
-        "impact": "Steady economic expansion supports long-term credit growth for major lenders.",
-        "category": "macro",
-        "source": "Economic Times - Economy",
-        "gainer": null
-      },
-      {
-        "headline": "Net direct tax collections grow 16% in early FY27",
-        "impact": "Stronger fiscal headroom allows government to sustain capital expenditure programs.",
-        "category": "macro",
-        "source": "Livemint - Economy",
-        "gainer": null
-      },
-      {
-        "headline": "Government plans next phase of food processing PLI scheme",
-        "impact": "Long-term capacity expansion and margin support for packaged food companies.",
+        "headline": "NTPC joint venture floats massive nuclear power plant tender",
+        "impact": "Accelerates clean energy transition, reducing long-term coal reliance.",
         "category": "legislative",
-        "source": "Livemint - Economy",
-        "gainer": null
+        "source": "Livemint",
+        "gainer": null,
+        "loser": null
+      },
+      {
+        "headline": "Deloitte forecasts steady GDP growth of up to 6.8%",
+        "impact": "Sustained economic expansion drives credit growth for private lenders.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": null,
+        "loser": null
+      },
+      {
+        "headline": "Government plans digital land record integration for farm loans",
+        "impact": "Streamlines rural lending, boosting credit growth for public banks.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": null,
+        "loser": null
+      },
+      {
+        "headline": "Government designs next phase of food processing PLI scheme",
+        "impact": "Long-term margin expansion for organized food processing players.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": null,
+        "loser": null
       }
     ]
   }

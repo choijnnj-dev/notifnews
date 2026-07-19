@@ -1,13 +1,13 @@
 name: India Markets Digest - EOD Recap
- 
+
 on:
   schedule:
     - cron: "30 10 * * *"   # 16:00 IST, after NSE close (15:30 IST)
   workflow_dispatch: {}
- 
+
 permissions:
   contents: write   # needed to commit updated history.json back to the repo
- 
+
 jobs:
   send-recap:
     runs-on: ubuntu-latest
@@ -15,25 +15,28 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
- 
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
- 
+
       - name: Install dependencies
         run: pip install -r requirements.txt
- 
+
       - name: Run EOD recap
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python eod_recap.py
- 
+
       - name: Commit updated history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add history.json
-          git diff --staged --quiet || git commit -m "Update accuracy history for $(date -u +%F)"
-          git push
- 
+          if [ -f history.json ]; then
+            git add history.json
+            git diff --staged --quiet || git commit -m "Update accuracy history for $(date -u +%F)"
+            git push
+          else
+            echo "No history.json to commit (no graded predictions today)."
+          fi

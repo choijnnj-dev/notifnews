@@ -128,24 +128,24 @@ whichever fits the time horizon better.
    on market impact (max ~12 words). Terse, no filler, no repeating the
    headline in the impact line.
 4. Tag category as one of: "macro", "legislative", "geopolitical".
-5. For each item, name exactly 2 real, currently NSE-listed stocks you judge
-   most likely to RISE and 2 most likely to FALL because of this story (use
+5. For each item, name exactly 1 real, currently NSE-listed stock you judge
+   most likely to RISE and 1 most likely to FALL because of this story (use
    exact NSE ticker symbols like "RELIANCE", "TCS", "HDFCBANK" - never invent
    one). For each, give a predicted same-day percentage move as a positive
-   number (magnitude only, e.g. 1.2 - direction is implied by which list it's
-   in). Keep magnitudes realistic per the calibration note above. If you
-   aren't confident enough to name 2 in a direction, name fewer rather than
-   guessing.
+   number (magnitude only, e.g. 1.2 - direction is implied by which field
+   it's in). Keep magnitudes realistic per the calibration note above. If you
+   genuinely can't pick a confident gainer or loser for a story, omit that
+   field rather than guessing.
 6. If fewer than 5 genuinely relevant stories exist for a horizon, return fewer.
 
 Respond ONLY with JSON matching this exact shape, nothing else:
 {{
   "short_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "...",
-      "gainers": [{{"ticker": "...", "predicted_pct": 1.2}}],
-      "losers": [{{"ticker": "...", "predicted_pct": 0.9}}]}}],
+      "gainer": {{"ticker": "...", "predicted_pct": 1.2}},
+      "loser": {{"ticker": "...", "predicted_pct": 0.9}}}}],
   "long_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "...",
-      "gainers": [{{"ticker": "...", "predicted_pct": 1.2}}],
-      "losers": [{{"ticker": "...", "predicted_pct": 0.9}}]}}]
+      "gainer": {{"ticker": "...", "predicted_pct": 1.2}},
+      "loser": {{"ticker": "...", "predicted_pct": 0.9}}}}]
 }}
 """
     return prompt
@@ -165,30 +165,31 @@ def call_gemini(prompt, api_key):
 
 
 def attach_baselines(digest):
-    """For every predicted stock, fetch and attach yesterday's close as the
-    baseline the EOD script will measure the actual move against. Stocks
-    whose price lookup fails are dropped (can't grade a prediction with no
-    baseline)."""
+    """For the predicted gainer/loser on every story, fetch and attach
+    yesterday's close as the baseline the EOD script will measure the actual
+    move against. If the price lookup fails, that field is dropped (can't
+    grade a prediction with no baseline)."""
     cache = {}
     for bucket in ("short_term", "long_term"):
         for item in digest.get(bucket, []):
-            for key, sign in (("gainers", 1), ("losers", -1)):
-                kept = []
-                for stock in item.get(key, []):
-                    ticker = stock.get("ticker", "").strip().upper()
-                    if not ticker:
-                        continue
-                    if ticker not in cache:
-                        cache[ticker] = fetch_price_snapshot(ticker)
-                    snap = cache[ticker]
-                    if snap is None:
-                        print(f"[warn] dropping '{ticker}' - no price data", file=sys.stderr)
-                        continue
-                    stock["ticker"] = ticker
-                    stock["predicted_pct"] = sign * abs(float(stock.get("predicted_pct", 0)))
-                    stock["baseline_price"] = snap["prev_close"]
-                    kept.append(stock)
-                item[key] = kept
+            for key, sign in (("gainer", 1), ("loser", -1)):
+                stock = item.get(key)
+                if not stock:
+                    continue
+                ticker = stock.get("ticker", "").strip().upper()
+                if not ticker:
+                    item[key] = None
+                    continue
+                if ticker not in cache:
+                    cache[ticker] = fetch_price_snapshot(ticker)
+                snap = cache[ticker]
+                if snap is None:
+                    print(f"[warn] dropping '{ticker}' - no price data", file=sys.stderr)
+                    item[key] = None
+                    continue
+                stock["ticker"] = ticker
+                stock["predicted_pct"] = sign * abs(float(stock.get("predicted_pct", 0)))
+                stock["baseline_price"] = snap["prev_close"]
     return digest
 
 
@@ -202,7 +203,8 @@ def format_ntfy_message(digest):
         for i, item in enumerate(items[:5], 1):
             tag = CATEGORY_TAG.get(item.get("category", "").lower(), "?")
             lines.append(f"{i}. [{tag}] {item['headline']} — {item['impact']}")
-            stocks = item.get("gainers", []) + item.get("losers", [])
+            gainer, loser = item.get("gainer"), item.get("loser")
+            stocks = [s for s in (gainer, loser) if s]
             if stocks:
                 lines.append("   " + " | ".join(fmt_stock(s) for s in stocks))
         return lines

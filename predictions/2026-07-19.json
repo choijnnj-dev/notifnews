@@ -3,86 +3,196 @@
   "digest": {
     "short_term": [
       {
-        "headline": "US-Iran war escalates as missiles strike Gulf military bases",
-        "impact": "Crude oil price spike benefits domestic explorers but hurts refiners.",
+        "headline": "US-Iran conflict escalates with strikes in Kuwait and Jordan",
+        "impact": "Spiking crude oil prices benefit upstream producers but hurt refiners.",
         "category": "geopolitical",
         "source": "The Hindu - International",
-        "gainer": null,
-        "loser": null
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
       },
       {
-        "headline": "India routes energy imports through UAE to avoid Hormuz",
-        "impact": "Shipping firms adapt while oil marketing companies face higher freight costs.",
+        "headline": "RBI Governor warns of West Asia war and monsoon risks",
+        "impact": "Rising macroeconomic uncertainty prompts defensive rotation into IT stocks.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India utilizes UAE ports to bypass Strait of Hormuz",
+        "impact": "Alternative shipping routes secure supply chains, benefiting port operators.",
         "category": "geopolitical",
-        "source": "Livemint",
-        "gainer": null,
-        "loser": null
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
       },
       {
-        "headline": "RBI announces VRR auction to ease banking system liquidity",
-        "impact": "Short-term liquidity injection supports private banks over public lenders.",
+        "headline": "July rains reduce monsoon deficit but inflation risks remain",
+        "impact": "Uneven rainfall distribution dampens short-term rural consumer sentiment.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "M&M",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI announces Variable Rate Repo auction to boost liquidity",
+        "impact": "Improved banking system liquidity supports short-term credit growth.",
         "category": "macro",
         "source": "RBI - Press Releases",
-        "gainer": null,
-        "loser": null
-      },
-      {
-        "headline": "Monsoon deficit narrows to 19% but crop risks persist",
-        "impact": "Uneven rains boost fertilizer demand but threaten FMCG margins.",
-        "category": "macro",
-        "source": "Livemint",
-        "gainer": null,
-        "loser": null
-      },
-      {
-        "headline": "US tightens visa rules for Indian students and professionals",
-        "impact": "Negative sentiment hits major IT exporters reliant on onsite talent.",
-        "category": "geopolitical",
-        "source": "The Hindu - International",
-        "gainer": null,
-        "loser": null
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MUTHOOTFIN",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
       }
     ],
     "long_term": [
       {
-        "headline": "Cabinet approves massive funding for Semiconductor Mission 2.0",
-        "impact": "Long-term boost for domestic electronics manufacturing and chip suppliers.",
+        "headline": "Cabinet approves Rs 1.27 trillion for Semiconductor Mission 2.0",
+        "impact": "Substantial subsidies accelerate domestic semiconductor manufacturing ecosystem.",
         "category": "legislative",
-        "source": "Livemint",
-        "gainer": null,
-        "loser": null
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "CGPOWER",
+          "predicted_pct_today": 1.5,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 18.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "REDINGTON",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
       },
       {
-        "headline": "NTPC joint venture floats massive nuclear power plant tender",
-        "impact": "Accelerates clean energy transition, reducing long-term coal reliance.",
-        "category": "legislative",
-        "source": "Livemint",
-        "gainer": null,
-        "loser": null
+        "headline": "NTPC-NPCIL JV floats Rs 28,000 crore nuclear plant tender",
+        "impact": "Massive nuclear power expansion provides multi-year order book visibility.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BHEL",
+          "predicted_pct_today": 1.1,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
       },
       {
-        "headline": "Deloitte forecasts steady GDP growth of up to 6.8%",
-        "impact": "Sustained economic expansion drives credit growth for private lenders.",
+        "headline": "Government integrates land records with ULI for farm credit",
+        "impact": "Digital land records reduce rural lending risks for public banks.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.8,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SHRIRAMFIN",
+          "predicted_pct_today": -0.4,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Deloitte projects robust 6.5-6.8% GDP growth for FY27",
+        "impact": "Strong economic expansion drives capital expenditure and infrastructure growth.",
         "category": "macro",
         "source": "Economic Times - Economy",
-        "gainer": null,
-        "loser": null
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 1.0,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 15.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COLPAL",
+          "predicted_pct_today": -0.2,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
       },
       {
-        "headline": "Government plans digital land record integration for farm loans",
-        "impact": "Streamlines rural lending, boosting credit growth for public banks.",
+        "headline": "Centre plans next phase of food processing PLI scheme",
+        "impact": "Enhanced fiscal incentives drive long-term capacity expansion for processors.",
         "category": "legislative",
-        "source": "Economic Times - Economy",
-        "gainer": null,
-        "loser": null
-      },
-      {
-        "headline": "Government designs next phase of food processing PLI scheme",
-        "impact": "Long-term margin expansion for organized food processing players.",
-        "category": "legislative",
-        "source": "Livemint",
-        "gainer": null,
-        "loser": null
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LTFOODS",
+          "predicted_pct_today": 1.3,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NESTLEIND",
+          "predicted_pct_today": -0.1,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 1.5,
+          "baseline_price": null
+        }
       }
     ]
   }

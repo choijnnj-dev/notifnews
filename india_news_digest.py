@@ -2,8 +2,10 @@
 """
 India Markets Impact Digest (morning run)
 - Pulls headlines from RSS feeds (macro, legislative, geopolitical)
-- Gemini picks 5 short-term + 5 long-term stories, and for each: 2 stocks
-  predicted to rise and 2 predicted to fall, with a predicted % move
+- Gemini picks 5 short-term + 5 long-term stories. Every story MUST include
+  1 predicted gainer + 1 predicted loser with a today's % move (enforced via
+  a strict JSON response schema, not just prompt instructions). Long-term
+  stories also get an overall multi-period forecast per stock.
 - Predictions are saved to predictions/<date>.json so the end-of-day script
   can compare them against what actually happened
 - Recent prediction accuracy (from history.json) is fed back into the prompt
@@ -47,6 +49,70 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
 CATEGORY_TAG = {"macro": "M", "legislative": "L", "geopolitical": "G"}
 HISTORY_PATH = "history.json"
 PREDICTIONS_DIR = "predictions"
+
+# ---------------------------------------------------------------------------
+# Strict response schema. This *forces* Gemini's structured output to include
+# gainer/loser on every item - it's not just a prompt instruction anymore,
+# it's a hard constraint the API enforces on generation.
+# ---------------------------------------------------------------------------
+_SHORT_STOCK_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "ticker": {"type": "STRING"},
+        "predicted_pct_today": {"type": "NUMBER"},
+    },
+    "required": ["ticker", "predicted_pct_today"],
+}
+
+_LONG_STOCK_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "ticker": {"type": "STRING"},
+        "predicted_pct_today": {"type": "NUMBER"},
+        "timeframe": {"type": "STRING"},
+        "overall_direction": {"type": "STRING", "enum": ["up", "down"]},
+        "overall_pct": {"type": "NUMBER"},
+    },
+    "required": ["ticker", "predicted_pct_today", "timeframe", "overall_direction", "overall_pct"],
+}
+
+_ITEM_FIELDS = {
+    "headline": {"type": "STRING"},
+    "impact": {"type": "STRING"},
+    "category": {"type": "STRING", "enum": ["macro", "legislative", "geopolitical"]},
+    "source": {"type": "STRING"},
+}
+
+DIGEST_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "short_term": {
+            "type": "ARRAY",
+            "items": {
+                "type": "OBJECT",
+                "properties": {
+                    **_ITEM_FIELDS,
+                    "gainer": _SHORT_STOCK_SCHEMA,
+                    "loser": _SHORT_STOCK_SCHEMA,
+                },
+                "required": ["headline", "impact", "category", "source", "gainer", "loser"],
+            },
+        },
+        "long_term": {
+            "type": "ARRAY",
+            "items": {
+                "type": "OBJECT",
+                "properties": {
+                    **_ITEM_FIELDS,
+                    "gainer": _LONG_STOCK_SCHEMA,
+                    "loser": _LONG_STOCK_SCHEMA,
+                },
+                "required": ["headline", "impact", "category", "source", "gainer", "loser"],
+            },
+        },
+    },
+    "required": ["short_term", "long_term"],
+}
 
 
 def fetch_feed(name, url):
@@ -128,13 +194,13 @@ whichever fits the time horizon better.
    on market impact (max ~12 words). Terse, no filler, no repeating the
    headline in the impact line.
 4. Tag category as one of: "macro", "legislative", "geopolitical".
-5. Every single item, in BOTH lists, MUST name exactly 1 real, currently
+5. Every single item, in BOTH lists, requires exactly 1 real, currently
    NSE-listed stock most likely to RISE and 1 most likely to FALL because of
    this story (exact NSE ticker symbols like "RELIANCE", "TCS", "HDFCBANK" -
-   never invent one, never leave this blank - always make your best-judgment
-   call). Give each a predicted TODAY'S percentage move as a positive number
-   (magnitude only - direction is implied by which field it's in). Keep
-   magnitudes realistic per the calibration note above.
+   never invent one - always make your best-judgment call, this field is
+   mandatory on every item). Give each a predicted TODAY'S percentage move as
+   a positive number (magnitude only - direction is implied by which field
+   it's in). Keep magnitudes realistic per the calibration note above.
 6. For LONG-TERM items only, ALSO give each of the 2 stocks an overall
    multi-period forecast: "timeframe" (a plain duration like "3 months" or
    "6 weeks", OR if the story's effect hasn't started yet, the point it
@@ -142,16 +208,6 @@ whichever fits the time horizon better.
    this can differ from today's short-term move if you expect a reversal),
    and "overall_pct" (positive magnitude over that timeframe).
 7. If fewer than 5 genuinely relevant stories exist for a horizon, return fewer.
-
-Respond ONLY with JSON matching this exact shape, nothing else:
-{{
-  "short_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "...",
-      "gainer": {{"ticker": "...", "predicted_pct_today": 1.2}},
-      "loser": {{"ticker": "...", "predicted_pct_today": 0.9}}}}],
-  "long_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "...",
-      "gainer": {{"ticker": "...", "predicted_pct_today": 1.2, "timeframe": "3 months", "overall_direction": "up", "overall_pct": 8.5}},
-      "loser": {{"ticker": "...", "predicted_pct_today": 0.9, "timeframe": "3 months", "overall_direction": "down", "overall_pct": 5.0}}}}]
-}}
 """
     return prompt
 
@@ -160,9 +216,13 @@ def call_gemini(prompt, api_key):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={api_key}"
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.3, "response_mime_type": "application/json"},
+        "generationConfig": {
+            "temperature": 0.3,
+            "response_mime_type": "application/json",
+            "response_schema": DIGEST_SCHEMA,
+        },
     }
-    resp = requests.post(url, json=body, timeout=60)
+    resp = requests.post(url, json=body, timeout=90)
     resp.raise_for_status()
     data = resp.json()
     text = data["candidates"][0]["content"]["parts"][0]["text"]
@@ -172,9 +232,12 @@ def call_gemini(prompt, api_key):
 def attach_baselines(digest):
     """For the predicted gainer/loser on every story, fetch and attach
     yesterday's close as the baseline the EOD script will measure the actual
-    move against. If the price lookup fails, that field is dropped (can't
-    grade a prediction with no baseline)."""
+    move against. IMPORTANT: if a price lookup fails, we keep Gemini's
+    prediction and just mark it un-gradable (baseline_price=None) - we do
+    NOT null out the whole stock, and we never let one bad ticker take down
+    its sibling stock's line."""
     cache = {}
+    dropped = 0
     for bucket in ("short_term", "long_term"):
         for item in digest.get(bucket, []):
             for key, sign in (("gainer", 1), ("loser", -1)):
@@ -182,36 +245,41 @@ def attach_baselines(digest):
                 if not stock:
                     continue
                 ticker = stock.get("ticker", "").strip().upper()
+                stock["predicted_pct_today"] = sign * abs(float(stock.get("predicted_pct_today", 0)))
                 if not ticker:
-                    item[key] = None
+                    stock["baseline_price"] = None
                     continue
+                stock["ticker"] = ticker
                 if ticker not in cache:
                     cache[ticker] = fetch_price_snapshot(ticker)
                 snap = cache[ticker]
                 if snap is None:
-                    print(f"[warn] dropping '{ticker}' - no price data", file=sys.stderr)
-                    item[key] = None
-                    continue
-                stock["ticker"] = ticker
-                stock["predicted_pct_today"] = sign * abs(float(stock.get("predicted_pct_today", 0)))
-                stock["baseline_price"] = snap["prev_close"]
+                    print(f"[warn] no price data for '{ticker}' - keeping prediction, marking un-gradable", file=sys.stderr)
+                    stock["baseline_price"] = None
+                    dropped += 1
+                else:
+                    stock["baseline_price"] = snap["prev_close"]
+    if dropped:
+        print(f"[info] {dropped} stock(s) had no price data (still shown in notification, just not gradable at EOD)", file=sys.stderr)
     return digest
 
 
 def format_ntfy_message(digest):
     def short_term_line(item):
         g, l = item.get("gainer"), item.get("loser")
-        if not g or not l:
-            return None
-        return (f"{g['ticker']} 📈{g['predicted_pct_today']:+.1f}%   "
-                f"{l['ticker']} 📉{l['predicted_pct_today']:+.1f}%")
+        parts = []
+        if g:
+            parts.append(f"{g['ticker']} 📈{g['predicted_pct_today']:+.1f}%")
+        if l:
+            parts.append(f"{l['ticker']} 📉{l['predicted_pct_today']:+.1f}%")
+        return "   ".join(parts) if parts else None
 
     def long_term_lines(item):
-        g, l = item.get("gainer"), item.get("loser")
-        if not g or not l:
-            return []
         out = []
-        for s, arrow_today in ((g, "📈"), (l, "📉")):
+        for key, arrow_today in (("gainer", "📈"), ("loser", "📉")):
+            s = item.get(key)
+            if not s:
+                continue
             overall_arrow = "↑" if s.get("overall_direction") == "up" else "↓"
             out.append(
                 f"   {s['ticker']} {arrow_today}{s['predicted_pct_today']:+.1f}% today"
@@ -227,6 +295,8 @@ def format_ntfy_message(digest):
             line = short_term_line(item)
             if line:
                 lines.append(f"   {line}")
+            else:
+                lines.append("   (no stock data available today)")
         return lines
 
     def block_long(title, items):
@@ -234,7 +304,8 @@ def format_ntfy_message(digest):
         for i, item in enumerate(items[:5], 1):
             tag = CATEGORY_TAG.get(item.get("category", "").lower(), "?")
             lines.append(f"{i}. [{tag}] {item['headline']} — {item['impact']}")
-            lines.extend(long_term_lines(item))
+            stock_lines = long_term_lines(item)
+            lines.extend(stock_lines if stock_lines else ["   (no stock data available today)"])
         return lines
 
     lines = block_short("⚡ SHORT-TERM (1-5 days)", digest.get("short_term", []))

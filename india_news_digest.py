@@ -128,24 +128,29 @@ whichever fits the time horizon better.
    on market impact (max ~12 words). Terse, no filler, no repeating the
    headline in the impact line.
 4. Tag category as one of: "macro", "legislative", "geopolitical".
-5. For each item, name exactly 1 real, currently NSE-listed stock you judge
-   most likely to RISE and 1 most likely to FALL because of this story (use
-   exact NSE ticker symbols like "RELIANCE", "TCS", "HDFCBANK" - never invent
-   one). For each, give a predicted same-day percentage move as a positive
-   number (magnitude only, e.g. 1.2 - direction is implied by which field
-   it's in). Keep magnitudes realistic per the calibration note above. If you
-   genuinely can't pick a confident gainer or loser for a story, omit that
-   field rather than guessing.
-6. If fewer than 5 genuinely relevant stories exist for a horizon, return fewer.
+5. Every single item, in BOTH lists, MUST name exactly 1 real, currently
+   NSE-listed stock most likely to RISE and 1 most likely to FALL because of
+   this story (exact NSE ticker symbols like "RELIANCE", "TCS", "HDFCBANK" -
+   never invent one, never leave this blank - always make your best-judgment
+   call). Give each a predicted TODAY'S percentage move as a positive number
+   (magnitude only - direction is implied by which field it's in). Keep
+   magnitudes realistic per the calibration note above.
+6. For LONG-TERM items only, ALSO give each of the 2 stocks an overall
+   multi-period forecast: "timeframe" (a plain duration like "3 months" or
+   "6 weeks", OR if the story's effect hasn't started yet, the point it
+   kicks in, e.g. "starts Sep 2026"), "overall_direction" ("up" or "down" -
+   this can differ from today's short-term move if you expect a reversal),
+   and "overall_pct" (positive magnitude over that timeframe).
+7. If fewer than 5 genuinely relevant stories exist for a horizon, return fewer.
 
 Respond ONLY with JSON matching this exact shape, nothing else:
 {{
   "short_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "...",
-      "gainer": {{"ticker": "...", "predicted_pct": 1.2}},
-      "loser": {{"ticker": "...", "predicted_pct": 0.9}}}}],
+      "gainer": {{"ticker": "...", "predicted_pct_today": 1.2}},
+      "loser": {{"ticker": "...", "predicted_pct_today": 0.9}}}}],
   "long_term": [{{"headline": "...", "impact": "...", "category": "macro|legislative|geopolitical", "source": "...",
-      "gainer": {{"ticker": "...", "predicted_pct": 1.2}},
-      "loser": {{"ticker": "...", "predicted_pct": 0.9}}}}]
+      "gainer": {{"ticker": "...", "predicted_pct_today": 1.2, "timeframe": "3 months", "overall_direction": "up", "overall_pct": 8.5}},
+      "loser": {{"ticker": "...", "predicted_pct_today": 0.9, "timeframe": "3 months", "overall_direction": "down", "overall_pct": 5.0}}}}]
 }}
 """
     return prompt
@@ -188,30 +193,53 @@ def attach_baselines(digest):
                     item[key] = None
                     continue
                 stock["ticker"] = ticker
-                stock["predicted_pct"] = sign * abs(float(stock.get("predicted_pct", 0)))
+                stock["predicted_pct_today"] = sign * abs(float(stock.get("predicted_pct_today", 0)))
                 stock["baseline_price"] = snap["prev_close"]
     return digest
 
 
 def format_ntfy_message(digest):
-    def fmt_stock(s):
-        arrow = "📈" if s["predicted_pct"] >= 0 else "📉"
-        return f"{arrow}{s['ticker']} {s['predicted_pct']:+.1f}% (base ₹{s['baseline_price']:.0f})"
+    def short_term_line(item):
+        g, l = item.get("gainer"), item.get("loser")
+        if not g or not l:
+            return None
+        return (f"{g['ticker']} 📈{g['predicted_pct_today']:+.1f}%   "
+                f"{l['ticker']} 📉{l['predicted_pct_today']:+.1f}%")
 
-    def block(title, items):
+    def long_term_lines(item):
+        g, l = item.get("gainer"), item.get("loser")
+        if not g or not l:
+            return []
+        out = []
+        for s, arrow_today in ((g, "📈"), (l, "📉")):
+            overall_arrow = "↑" if s.get("overall_direction") == "up" else "↓"
+            out.append(
+                f"   {s['ticker']} {arrow_today}{s['predicted_pct_today']:+.1f}% today"
+                f"  ·  {s.get('timeframe', '?')}: {overall_arrow}{s.get('overall_pct', 0):.1f}%"
+            )
+        return out
+
+    def block_short(title, items):
         lines = [title]
         for i, item in enumerate(items[:5], 1):
             tag = CATEGORY_TAG.get(item.get("category", "").lower(), "?")
             lines.append(f"{i}. [{tag}] {item['headline']} — {item['impact']}")
-            gainer, loser = item.get("gainer"), item.get("loser")
-            stocks = [s for s in (gainer, loser) if s]
-            if stocks:
-                lines.append("   " + " | ".join(fmt_stock(s) for s in stocks))
+            line = short_term_line(item)
+            if line:
+                lines.append(f"   {line}")
         return lines
 
-    lines = block("⚡ SHORT-TERM (1-5 days)", digest.get("short_term", []))
+    def block_long(title, items):
+        lines = [title]
+        for i, item in enumerate(items[:5], 1):
+            tag = CATEGORY_TAG.get(item.get("category", "").lower(), "?")
+            lines.append(f"{i}. [{tag}] {item['headline']} — {item['impact']}")
+            lines.extend(long_term_lines(item))
+        return lines
+
+    lines = block_short("⚡ SHORT-TERM (1-5 days)", digest.get("short_term", []))
     lines.append("")
-    lines += block("🧭 LONG-TERM (months+)", digest.get("long_term", []))
+    lines += block_long("🧭 LONG-TERM (months+)", digest.get("long_term", []))
     lines.append("")
     lines.append("M=macro · L=legislative · G=geopolitical")
     lines.append("Predictions are AI-inferred estimates, not verified forecasts. EOD recap follows at market close.")

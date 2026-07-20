@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-20",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Core sector output grows 5% in June, iron ore surges",
+        "impact": "Boosts industrial and mining stocks, while oil production lag weighs",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "NMDC",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ONGC",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "No long-term tax relief for domestic equity investors",
+        "impact": "Dampens retail investor sentiment, impacting market intermediaries and exchanges",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CDSL",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US-Iran escalation in Hormuz pushes Brent crude above $91",
+        "impact": "Higher oil prices benefit upstream explorers but hurt downstream refiners",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India advises citizens to avoid travel to Iran amid escalation",
+        "impact": "Geopolitical risk and airspace disruptions pressure aviation and travel stocks",
+        "category": "geopolitical",
+        "source": "Indian Express",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India eyes UAE ports to bypass Hormuz shipping risks",
+        "impact": "Port operators gain strategic importance while shipping costs pressure logistics",
+        "category": "geopolitical",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SCI",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Erratic monsoon threatens crop yields and power grid stability",
+        "impact": "Strains rural demand while boosting power generation and utility companies",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 0.5,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "M&M",
+          "predicted_pct_today": -0.7,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "NTPC-NPCIL JV floats Rs 28,000 crore nuclear plant tender",
+        "impact": "Accelerates clean energy transition, benefiting power giants over coal miners",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 15.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government eases battery PLI norms to attract storage players",
+        "impact": "Boosts domestic battery manufacturers despite lower immediate subsidies",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "EXIDEIND",
+          "predicted_pct_today": 0.9,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATACHEM",
+          "predicted_pct_today": -0.2,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "NaBFID-IIFCL merger plan revived to boost infrastructure financing",
+        "impact": "Strengthens long-term funding for major infrastructure and construction players",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.6,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IDFCFIRSTB",
+          "predicted_pct_today": -0.4,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India's net FDI inflows projected to reach $15 billion",
+        "impact": "Boosts capital-intensive sectors and multinational corporations operating in India",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.4,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.1,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

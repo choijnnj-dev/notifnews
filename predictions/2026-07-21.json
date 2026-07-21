@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-21",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Tankers ablaze in Hormuz as US-Iran conflict intensifies",
+        "impact": "Crude price spike benefits upstream producers but hurts oil marketing companies.",
+        "category": "geopolitical",
+        "source": "Indian Express",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India June core sector growth rebounds to five-month high",
+        "impact": "Strong cement and steel demand boosts infrastructure and mining stocks.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "NMDC",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Kharif sowing recovers as rice and pulse acreage rises",
+        "impact": "Rising agricultural activity boosts demand for fertilizers and agrochemicals.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Rising fodder costs push up milk and chicken prices",
+        "impact": "Higher realization for dairy firms but margin pressure for food processors.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "HATSUN",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "JUBLFOOD",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI concessional swap facility draws massive foreign exchange inflows",
+        "impact": "Improved banking system liquidity supports large-cap lenders but strengthens rupee.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "NTPC joint venture floats massive tender for Rajasthan nuclear plant",
+        "impact": "Long-term capacity expansion boosts state-run power generation giant.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 1.0,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "PLI schemes drive massive investments and job creation",
+        "impact": "Solar PV and electronics manufacturing players gain long-term market share.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TATAPOWER",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India opens applications for UK car import tariff quotas",
+        "impact": "Lower import duties benefit premium British brands owned by Indian firms.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": 1.3,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.6,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "NaBFID gets approval for mega infrastructure bond issuance",
+        "impact": "Massive capital mobilization accelerates execution for major infrastructure developers.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.9,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IDFCFIRSTB",
+          "predicted_pct_today": -0.4,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government lowers subsidies and eases battery PLI norms",
+        "impact": "Domestic battery manufacturers benefit from revised terms for advanced chemistry.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "EXIDEIND",
+          "predicted_pct_today": 1.1,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BOSCHLTD",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

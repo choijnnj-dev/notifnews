@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-22",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "West Asia conflict escalates freight rates and Indian port delays",
+        "impact": "Higher ocean freight rates boost carrier revenues despite port congestion.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SCI",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Port congestion delays kharif fertiliser imports across Indian docks",
+        "impact": "Import bottlenecks drive domestic fertiliser demand and boost local producer realizations.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "UPL",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI swap facility drives nearly two lakh crore forex inflows",
+        "impact": "Robust capital inflows strengthen the rupee and ease banking liquidity constraints.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Slower domestic crushing triggers July to October edible oil import surge",
+        "impact": "Increased import volumes boost refining margins for domestic edible oil processors.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "PATANJALI",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "GODREJAGRO",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre plans phased onion buffer release starting September",
+        "impact": "Food inflation control protects consumer discretionary spending and staple demand.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HUL",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "KRBL",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "US plans phased tariffs up to 200 percent on generic imports",
+        "impact": "Severe long-term export margin compression for US-focused Indian pharmaceutical exporters.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "MANKIND",
+          "predicted_pct_today": 0.3,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DRREDDY",
+          "predicted_pct_today": -0.8,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Shift to discounted Russian coking coal cuts India import bill",
+        "impact": "Reduced raw material costs sustainably boost operating margins for primary steelmakers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Revised battery PLI rules loosen entry norms for storage players",
+        "impact": "Regulatory easing accelerates domestic battery capacity creation for energy transition.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "EXIDEIND",
+          "predicted_pct_today": 0.6,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NTPC",
+          "predicted_pct_today": -0.3,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "NaBFID and IIFCL merger proposed to create infra financing giant",
+        "impact": "Stronger development institution expands long-term credit availability for mega infrastructure.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.4,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PFC",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Karnataka foreign direct investment doubles to thirteen billion dollars",
+        "impact": "Global capability expansion drives sustained commercial real estate and regional growth.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "PRESTIGE",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "WIPRO",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

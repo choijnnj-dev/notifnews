@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-23",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US-Iran Escalation Drives Tanker Attacks Near Strait of Hormuz",
+        "impact": "Surging crude oil prices benefit upstream energy producers over downstream refiners.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Signals Potential 200 Percent Tariffs on Indian Generic Drugs",
+        "impact": "Heightened export duty risks threaten profit margins of domestic pharmaceutical majors.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "APOLLOHOSP",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Eases Battery Scheme Rules to Attract Storage Investments",
+        "impact": "Relaxed tender parameters boost growth outlook for domestic battery cell manufacturers.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "EXIDEIND",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Coking Coal Import Bill Falls 39 Percent on Discounts",
+        "impact": "Cheaper raw material imports expand operating margins for major domestic steelmakers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Sugar Stock Limits Imposed Amid Surge in Domestic Demand",
+        "impact": "Strong seasonal sugar demand boosts mill realization despite near-term supply controls.",
+        "category": "legislative",
+        "source": "Moneycontrol - Economy",
+        "gainer": {
+          "ticker": "RENUKA",
+          "predicted_pct_today": 1.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DABUR",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "US India Bilateral Trade Agreement Nears Final Phase of Completion",
+        "impact": "Tariff reductions expand market access for Indian IT and manufacturing exporters.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Revives Proposal to Merge NaBFID with IIFCL",
+        "impact": "Consolidated development bank strengthens long-term infrastructure funding capacity and reduces borrowing costs.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "PFC",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 5.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IDFCFIRSTB",
+          "predicted_pct_today": -0.2,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 1.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Rising Rural Inflation Expands Beyond Food into General Goods",
+        "impact": "Sustained price pressures squeeze rural disposable income, dampening FMCG volume growth.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.3,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Karnataka Tech Foreign Direct Investment Doubles to 13 Billion Dollars",
+        "impact": "Inflow surge drives commercial real estate expansion but increases corporate tech wages.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DLF",
+          "predicted_pct_today": 0.6,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 4.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "WIPRO",
+          "predicted_pct_today": -0.3,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 2.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "United States and Saudi Arabia Sign Bilateral Civil Nuclear Pact",
+        "impact": "Middle East clean energy transition creates international nuclear engineering contract opportunities.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.4,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 3.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": -0.3,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 1.7,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

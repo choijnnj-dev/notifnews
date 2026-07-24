@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-24",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Global Crude Crosses $100 as Red Sea Conflict Escalates",
+        "impact": "Rising crude costs pressure downstream refiners while boosting upstream explorers.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Imposes 10% Tariff on Indian Goods Over Labor Issues",
+        "impact": "New trade tariffs strain export margins for domestic textile manufacturers.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "KPRMILL",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "July Composite PMI Slumps to 54.3 Amid Services Slowdown",
+        "impact": "Slower economic expansion dampens momentum across cyclical and financial sectors.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "AXISBANK",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Swap Facility Yields $20.7 Billion Forex Inflows Since June",
+        "impact": "Substantial forex liquidity injection eases interbank funding costs and yields.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Saudi Oil Shipments Face 50% Freight Hike Due to Blockade",
+        "impact": "Escalating shipping costs raise landed crude input costs for oil refiners.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "GESHIP",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India Permits FDI in E-Commerce Inventory Model for Exports",
+        "impact": "E-commerce FDI flexibility accelerates cross-border order processing and logistics demand.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DELHIVERY",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DMART",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Single Financial Customer ID Implementation Begins August",
+        "impact": "Common C-KYC adoption reduces onboarding friction across wealth management platforms.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "CAMS",
+          "predicted_pct_today": 0.5,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "LICHSGFIN",
+          "predicted_pct_today": -0.2,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Coking Coal Import Bill Drops 39% on Russian Sourcing",
+        "impact": "Sustained cheaper raw material imports enhance long-term operating margins for steelmakers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Tamil Nadu Sets Launch of Online Property Registration in August",
+        "impact": "Presence-less registration speeds home loan processing and real estate inventory turnover.",
+        "category": "legislative",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "GODREJPROP",
+          "predicted_pct_today": 0.5,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "REPCOHOME",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Plans September Buffer Stock Release to Curb Inflation",
+        "impact": "Active food stock releases mitigate seasonal agricultural inflation risks across consumer sectors.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.4,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "AWL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

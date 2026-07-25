@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-25",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US Bill Proposes Three-Year H-1B Visa Pause and Fee Hike",
+        "impact": "Threatens offshore IT service delivery models and depresses tech sector sentiment.",
+        "category": "legislative",
+        "source": "Indian Express - World",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Imposes Minimum Import Price Restrictions on PVC Resin",
+        "impact": "Boosts domestic resin manufacturers while raising raw input costs for plastic pipe makers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "CHEMPLAST",
+          "predicted_pct_today": 1.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASTRAL",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Private Sector Growth Slows to Four-Year Low in July",
+        "impact": "Signals cooling domestic economic momentum and weighs on financial market sentiment.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "DIVISLAB",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "AXISBANK",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Red Sea Blockade Drives 50 Percent Freight Hike for Saudi Oil",
+        "impact": "Elevates crude landed costs and compresses refining margins for state refiners.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SCI",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Reservoir Levels Drop 39 Percent Threatening Kharif Crop Yields",
+        "impact": "Raises food inflation risks and weakens demand prospects for rural consumer stocks.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "PIIND",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DABUR",
+          "predicted_pct_today": -1.0,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "US Tariff Revision Gives Indian Exporters Competitive Edge Over Rivals",
+        "impact": "Enhances long-term export competitiveness for Indian textile and home goods manufacturers.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "WELSPUNLIV",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "EICHERMOT",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Coking Coal Import Costs Decline 39 Percent via Russian Sourcing",
+        "impact": "Permanently improves operating margins and raw material cost stability for steelmakers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 0.9,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 15.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.5,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India-UK Trade Pact Expected to Drive $115 Billion Bilateral Trade",
+        "impact": "Expands multi-year market access for Indian IT exporters and engineering goods.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "WIPRO",
+          "predicted_pct_today": 0.6,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RADICO",
+          "predicted_pct_today": -0.4,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Indian Railways Expands Kavach 4.0 Safety System Across Core Corridors",
+        "impact": "Secures long-term order pipelines and revenue growth for railway signaling suppliers.",
+        "category": "legislative",
+        "source": "Indian Express - India",
+        "gainer": {
+          "ticker": "KERNEX",
+          "predicted_pct_today": 1.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 22.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IRFC",
+          "predicted_pct_today": -0.2,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Indonesia Biofuel Mandate Sustains Global Edible Oil Price Inflation",
+        "impact": "Drives structural margin expansion for domestic palm oil plantation and processing firms.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "GODREJAGRO",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

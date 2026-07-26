@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-26",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US imposes 10% tariff on Indian apparel exports",
+        "impact": "Hurts export competitiveness and margins for Indian garment manufacturers.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TRENT",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "GOKEX",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Senate bill proposes three-year pause on H-1B visas",
+        "impact": "Weakens near-term sentiment for Indian IT service exporters.",
+        "category": "legislative",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India private sector PMI slows to four-year low in July",
+        "impact": "Sharp slowdown in services growth weighs on broad market sentiment.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "HUL",
+          "predicted_pct_today": 0.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government imposes six-month minimum import price on PVC resin",
+        "impact": "Protects domestic PVC producers while raising raw material costs for pipe makers.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "CHEMPLASTS",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASTRAL",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Houthi blockade triggers 50% freight hike on Saudi crude",
+        "impact": "Elevated shipping costs squeeze margins for domestic oil refiners.",
+        "category": "geopolitical",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "SCI",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.0,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Lower coking coal prices reduce import bills for steelmakers",
+        "impact": "Sustained lower raw material costs enhance profitability for domestic steel producers.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Reservoir levels fall 39% threatening kharif crop yields",
+        "impact": "Uneven monsoon reduces rural disposable income and depresses rural consumption.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "ESCORTS",
+          "predicted_pct_today": 0.5,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DABUR",
+          "predicted_pct_today": -0.6,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI swap facilities pull over two lakh crore in forex",
+        "impact": "Stronger foreign exchange reserves stabilize rupee and lower bank funding costs.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and Australia partner to build critical mineral supply chains",
+        "impact": "Secures essential battery inputs for long-term domestic electric vehicle manufacturing.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India UK trade pact projected to reach 115 billion dollars",
+        "impact": "Bilateral duty cuts boost long-term export volumes for engineering and auto components.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "BHARATFORG",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "M&M",
+          "predicted_pct_today": -0.2,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

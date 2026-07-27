@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-27",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India July PMI Slows to Four-Year Low on Weak Services",
+        "impact": "Weakening services growth triggers short-term profit booking across major service stocks.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BHEL",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Allows 5 Million Tonnes Wheat Exports After Long Ban",
+        "impact": "Export clearance provides immediate revenue boost for agricultural exporters and traders.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "KRBL",
+          "predicted_pct_today": 2.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Saudi Oil Shipments Face Freight Hike Amid Red Sea Blockade",
+        "impact": "Escalating ocean freight costs reduce profit margins for domestic oil refiners.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Imposes 10% Tariff on Indian Exports With Textile Exceptions",
+        "impact": "New trade tariffs pressure short-term sentiment for US-focused export industries.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "KPRMILL",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Engineering Exports Jump 21% as Demand from China Surges",
+        "impact": "Surging foreign order flow strengthens short-term outlook for engineering exporters.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "RBI Expected to Maintain Policy Rate at 5.25% Through 2026",
+        "impact": "Extended rate pause caps valuation expansion for high-leverage and real estate firms.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.9,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Accelerates Mining and Construction Equipment Localization Scheme",
+        "impact": "Import substitution policy permanently boosts domestic capital goods order pipelines.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BEML",
+          "predicted_pct_today": 1.1,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Generic Drug Tariffs Force Restructuring on Indian Pharma",
+        "impact": "Rising trade barriers pressure long-term operating margins for pharmaceutical exporters.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "DIVISLAB",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": -1.2,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Foreign Capital Inflows Touch $32 Billion Following RBI Reforms",
+        "impact": "Sustained capital inflows strengthen long-term banking liquidity and macroeconomic stability.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "CBDT Mandates Tax Residency Data Collection for Crypto Exchanges",
+        "impact": "Strict compliance rules shift retail capital toward regulated equity capital markets.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BSE",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ANGELONE",
+          "predicted_pct_today": -1.0,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

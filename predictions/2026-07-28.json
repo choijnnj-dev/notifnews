@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-28",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Saudi Oil Freight to India Surges 50% Amid Red Sea Blockade",
+        "impact": "Escalating shipping costs pressure refiner margins and elevate short-term import bills.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India July Flash PMI Growth Slows to Four-Year Low",
+        "impact": "Deceleration in service activity tempers immediate economic momentum expectations.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Monsoon Revival Accelerates Summer Crop Sowing Across India",
+        "impact": "Narrowing rainfall deficit lifts short-term sentiment across rural consumption plays.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ESCORTS",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Imposes Tariffs with 45% India Export Exemptions",
+        "impact": "Near-term relief for exempt sectors offset by lingering export uncertainty.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "INFY",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "WELSPUNLIV",
+          "predicted_pct_today": -1.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "GST Panel Proposes Intra-Group Tax Credit Transfers",
+        "impact": "Eases cash-flow friction and working capital lockups for large corporate groups.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Weak Capex and High Oil to Slow India GDP Growth",
+        "impact": "Muted capacity expansion dampens multi-year industrial order inflows and earnings trajectories.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HUL",
+          "predicted_pct_today": 0.4,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "LT",
+          "predicted_pct_today": -0.9,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Minimum Import Price Imposed on PVC Resin Imports",
+        "impact": "Long-term floor price protects domestic resin manufacturers while squeezing pipe fabricators.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "FINOLEXIND",
+          "predicted_pct_today": 1.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASTRAL",
+          "predicted_pct_today": -1.2,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI to Field Test Polymer Banknotes for Small Denominations",
+        "impact": "Gradual transition toward synthetic currency threatens traditional paper mills.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "POLYPLEX",
+          "predicted_pct_today": 1.1,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TNPL",
+          "predicted_pct_today": -0.8,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US and India Expand Defense and Civil Nuclear Cooperation",
+        "impact": "Multi-year tech transfer and procurement agreements bolster domestic defense manufacturing.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HAL",
+          "predicted_pct_today": 1.0,
+          "timeframe": "24 months",
+          "overall_direction": "up",
+          "overall_pct": 18.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.5,
+          "timeframe": "24 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Global Biofuel Mandates Elevate Edible Oil Cost Structure",
+        "impact": "Sustained structural cost pressures erode margins for consumer staple makers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "AWL",
+          "predicted_pct_today": 1.3,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": -0.7,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-29",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India June Factory Output Surges 7.3 Percent",
+        "impact": "Accelerating manufacturing activity boosts industrial demand and investor sentiment.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.85,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.35,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Imposes Sugar Stock Limits Through November",
+        "impact": "Inventory caps limit mill realizations while offering input stability to processors.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.25,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Restrictions On PVC Imports To Elevate Domestic Prices",
+        "impact": "Domestic chemical producers gain pricing power while pipe makers face higher costs.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.65,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASTRAL",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Senate Bill Proposes Sanctions On Russian Crude Buyers",
+        "impact": "Secondary sanction risks raise crude import cost concerns for Indian refiners.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.95,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "HSBC Flash PMI Signals Private Sector Slowdown In July",
+        "impact": "Weakening services expansion prompts tactical rotation toward defensive equity sectors.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "US Tariff Proposals Threaten Indian Generic Drug Exports",
+        "impact": "Pharma exporters face long-term margin pressure and US market regulatory compliance costs.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.4,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DRREDDY",
+          "predicted_pct_today": -0.85,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Finalizes Winding Up Of Paytm Payments Bank",
+        "impact": "Digital payment market share permanently shifts toward legacy commercial banks.",
+        "category": "legislative",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PAYTM",
+          "predicted_pct_today": -1.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 15.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Rajasthan Accelerates Water Infrastructure Spending Via AMRUT 2.0",
+        "impact": "Multi-year state infrastructure outlays boost long-term order books for EPC contractors.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "VATECHWAB",
+          "predicted_pct_today": 1.1,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Fitch Forecasts 9 Percent Revenue Growth For Corporate India",
+        "impact": "Stable credit profiles and steady revenues support multi-year equity earnings growth.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.6,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASTRAL",
+          "predicted_pct_today": -0.2,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Middle East Escalation Threatens Energy Transit Routes",
+        "impact": "Prolonged geopolitical instability sustains elevated crude oil prices and freight costs.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.75,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.6,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.2,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

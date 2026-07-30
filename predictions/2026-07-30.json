@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-30",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US Strikes on Iran Escalates West Asia Conflict and Crude Prices",
+        "impact": "Spiking crude oil prices boost upstream oil producers while hurting paint manufacturers.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India June Industrial Output Surges to 7.3 Percent Six-Month High",
+        "impact": "Strong factory activity drives capital goods while staples face cost pressures.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Fertilizers Industry Demands Subsidy Hike Over Escalating Input Costs",
+        "impact": "Higher government subsidy expectations aid domestic producers, pressuring un-subsidized chemical players.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "CHAMBLFERT",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "UPL",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Imposes 10 Percent Tariffs on Select Indian Exports",
+        "impact": "Tariff uncertainty hits apparel exporters while large diversified exporters remain insulated.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "GOKEX",
+          "predicted_pct_today": -1.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Black Sea Disruptions Push India to Seek Alternative Edible Oil Supplies",
+        "impact": "Edible oil refiners benefit from price hikes while packaged food firms face cost inflation.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "PATANJALI",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India Advances Great Nicobar Mega Transshipment Infrastructure Project",
+        "impact": "Maritime infrastructure buildout expands long-term port capacity while altering trade flows.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Generic Drug Tariffs Force Indian Pharma Supply Chain Shift",
+        "impact": "Tariff risks accelerate API localization while pressuring finished generic export margins.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "DIVISLAB",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": -0.9,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "AI Automation Supercharges Tax Compliance and Structural Economic Reforms",
+        "impact": "Enterprise IT providers gain from public digitization while non-compliant fintechs face headwinds.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.7,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PAYTM",
+          "predicted_pct_today": -1.1,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Retail Fuel Dealers Press Government Over E20 Ethanol Blend Costs",
+        "impact": "Sustained ethanol blending benefits sugar mills while state OMCs bear compliance costs.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": 1.0,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.8,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Regulators Work to Ease Outbound Tax Constraints at GIFT IFSC",
+        "impact": "Tax framework parity boosts offshore IFSC banking ops while pressuring onshore asset managers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.6,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ICICIPRULI",
+          "predicted_pct_today": -0.3,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

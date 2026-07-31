@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-31",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India's Q1 FY27 Industrial Output Reaches Six-Month High of 7.3%",
+        "impact": "Accelerating industrial growth drives demand for heavy capital goods and manufacturing.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India's Q1 Fiscal Deficit Expands to Rs 3.1 Lakh Crore",
+        "impact": "Widening deficit raises borrowing concerns, pressuring state-run bank treasury portfolios.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SBIN",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Russia Extends Fuel Export Ban Through January 2027",
+        "impact": "Tightened global diesel supply lifts refining margins for domestic export refiners.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Imposes 10% Tariffs on Indian Textile Exports",
+        "impact": "Fresh trade levies reduce profit margins for Indian garment export firms.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "GOKEX",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "GSTN Delays Proposed E-Way Bill Rule System Upgrades",
+        "impact": "Logistics providers avoid immediate compliance burdens and operational disruptions.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "VRLLOG",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCI",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India-EU FTA Work Plan Addresses EU Carbon Tax Risks",
+        "impact": "CBAM concessions protect export competitiveness for Indian steel and aluminum producers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDALCO",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Proposed US Tariffs Target Indian Generic Drug Exporters",
+        "impact": "Import duties force Indian pharmaceutical firms toward expensive US supply reallocation.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "DIVISLAB",
+          "predicted_pct_today": 0.5,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": -1.1,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 4.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Updates Basel Pillar 3 Disclosures for Commercial Banks",
+        "impact": "Tighter disclosure norms favor well-capitalized private lenders over weaker peers.",
+        "category": "legislative",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PNB",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Favara-UPI Cross-Border Payment System Launches in Maldives",
+        "impact": "Expanding international cross-border corridors boosts recurring fee income for fintechs.",
+        "category": "geopolitical",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "PAYTM",
+          "predicted_pct_today": 0.9,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SBIN",
+          "predicted_pct_today": -0.2,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 1.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Fuel Retailers Seek OMC Compensation for E20 Testing Costs",
+        "impact": "Testing cost disputes and E20 blending mandates support ethanol technology providers.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "PRAJIND",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

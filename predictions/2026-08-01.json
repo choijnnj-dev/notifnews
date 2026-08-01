@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-01",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "July GST Collections Surge 15.4% to Record \u20b92.11 Lakh Crore",
+        "impact": "Strong domestic consumption and import activity boost market sentiment and retail equities.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TRENT",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Iran Attacks Hormuz Tankers Escalating West Asia Supply Risks",
+        "impact": "Spiking crude prices pressure oil marketing refiners while boosting upstream explorers.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -2.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Likely to Maintain Repo Rate at 5.25%",
+        "impact": "Rate-sensitive banking stocks hold steady while high-leverage sectors face persistent costs.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Factory Output Growth Hits Six-Month High of 7.3%",
+        "impact": "Manufacturing momentum bolsters industrial capital goods and infrastructure companies.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre Releases \u20b91.09 Lakh Crore Tax Devolution to States",
+        "impact": "Immediate liquidity injection supports state infrastructure spend and construction firms.",
+        "category": "legislative",
+        "source": "PIB India - Releases",
+        "gainer": {
+          "ticker": "PNCINFRA",
+          "predicted_pct_today": 1.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CIPLA",
+          "predicted_pct_today": -0.2,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Cabinet Approves \u20b984,084 Crore Offshore Oil Exploration Scheme",
+        "impact": "Multi-year deepwater drilling incentives enhance long-term domestic energy security.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 2.2,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 18.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.7,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Extends PM-KISAN Scheme With \u20b93.15 Lakh Crore Outlay",
+        "impact": "Sustained direct cash transfers support rural disposable income and tractor demand.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "M&M",
+          "predicted_pct_today": 1.1,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TITAN",
+          "predicted_pct_today": -0.3,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Bill Threatens 100% Tariffs on Russian Energy Buyers",
+        "impact": "Structural risks to refiners reliant on discounted crude threaten margin profiles.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": 0.9,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": -1.6,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Jumps 25 Places in Global Competitiveness Ranking",
+        "impact": "Structural economic reforms attract sustained foreign direct investment into major sectors.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.8,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.2,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "World Bank Warns Extreme Heat Threatens Urban Jobs",
+        "impact": "Climate risks drive long-term demand for sustainable cooling and HVAC infrastructure.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": 1.3,
+          "timeframe": "3 years",
+          "overall_direction": "up",
+          "overall_pct": 22.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NTPC",
+          "predicted_pct_today": -0.5,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-02",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "July GST Collections Surge 15.4% to Rs 2.11 Lakh Crore",
+        "impact": "Robust revenue growth highlights strong domestic consumption and business activity.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Likely to Hold Repo Rate Amid Sustained Inflation Risks",
+        "impact": "Unchanged interest rates support bank margins but damp real estate sentiment.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US and Israel Pause Planned Strikes on Iranian Targets",
+        "impact": "Easing geopolitical tensions lowers crude oil prices, benefiting downstream refiners.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ONGC",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre Advances Rs 1.09 Lakh Crore Tax Devolution to States",
+        "impact": "Early fiscal disbursement boosts state capital expenditure and infrastructure spending.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 1.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CIPLA",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India-China Border Trade Resumes After Six-Year Interruption",
+        "impact": "Reopened border routes boost local trade volumes and regional transport logistics.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DABUR",
+          "predicted_pct_today": -0.2,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Cabinet Approves Rs 84,000 Crore Deep-Sea Energy Exploration Project",
+        "impact": "Massive capital expenditure enhances domestic energy security and upstream order pipelines.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "E20 Ethanol Blending Expansion Directs Grain Surplus to Biofuel",
+        "impact": "Diversion of agricultural surplus provides long-term revenue visibility for ethanol producers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": 1.1,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HPCL",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Launches Rs 5,659 Crore Cotton Productivity Scheme",
+        "impact": "Targeted interventions boost farm yields, lowering raw material costs for textiles.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "WELSPUNLIV",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RAYMOND",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "World Bank Warns Heatwaves Risks Threaten Regional Economic Growth",
+        "impact": "Rising extreme weather events disproportionately impact agriculture and outdoor labor productivity.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": 0.7,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "M&M",
+          "predicted_pct_today": -0.5,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Rises 25 Places in Global Competitiveness Index",
+        "impact": "Sustained structural market reforms improve ease of business and foreign capital inflows.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.8,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "POWERGRID",
+          "predicted_pct_today": -0.2,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

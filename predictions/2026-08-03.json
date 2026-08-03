@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-03",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "RBI MPC Begins Meeting With Market Expecting Benchmark Rate Pause",
+        "impact": "Rate pause expectations support banking liquidity and stabilize corporate borrowing costs.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Global Crude Prices Tumble As US Iran Tensions Relieve",
+        "impact": "Lower crude costs boost marketing margins for oil refiners.",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ONGC",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "July Gross GST Collections Grow 15.4 Percent To Rs 2.11 Trillion",
+        "impact": "Strong tax revenue signals resilient consumer demand and industrial activity.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India July Manufacturing PMI Moderates Near Five Year Low",
+        "impact": "Slowdown in factory growth dampens sentiment for industrial and metals stocks.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Parliament Clears MSME Bill To Fast Track Delayed Payment Disputes",
+        "impact": "Faster dispute resolution improves cash flow visibility for small vendors.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "POWERGRID",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Tax Bill Extends Electronics Manufacturing Tax Incentives Through Year 2041",
+        "impact": "Extended incentives drive long-term capital expenditure in electronics manufacturing.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 1.2,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HAVELLS",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Cabinet Approves Rs 84,000 Crore Scheme For Deep Sea Exploration",
+        "impact": "Substantial capital backing enhances long-term domestic upstream energy reserve discovery.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India And Canada Aim To Conclude Comprehensive Trade Agreement",
+        "impact": "Bilateral trade liberalization supports services exports and cross-border tech investment.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "INFY",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": -0.2,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Data Centres Capture 40 Percent Institutional Funding Driven By AI",
+        "impact": "Rapid digital infrastructure growth boosts long-term power and EPC demand.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "ABB",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "World Bank Warns Extreme Heat Threats Could Shrink Regional Output",
+        "impact": "Rising climate risks accelerate transition toward renewable power and cooling solutions.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "TATAPOWER",
+          "predicted_pct_today": 0.6,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

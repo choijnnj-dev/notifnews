@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-04",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Manufacturing PMI Drops to 53.5 Signaling Growth Slowdown",
+        "impact": "Easing manufacturing expansion prompts capital shift toward defensive IT sectors.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Cabinet Approves \u20b984,008 Crore Deep-Sea Energy Exploration Plan",
+        "impact": "Upstream energy explorers gain while state oil retailers face margin pressure.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "July Gross GST Collections Surge 15.4% to \u20b92.11 Trillion",
+        "impact": "Robust consumption revenue boosts banking and credit growth sentiments.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CIPLA",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Expected to Hold Repo Rate at Upcoming Policy Review",
+        "impact": "Rate pause maintains elevated borrowing costs for real estate developers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US-Iran Diplomatic Talks Pursued to Reopen Strait of Hormuz",
+        "impact": "De-escalation lowers global crude prices, benefiting downstream oil refiners.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "OIL",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Parliament Passes MSME Bill Mandating Strict Payment Timelines",
+        "impact": "Faster payment cycles improve working capital for small electronics manufacturers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "KAYNES",
+          "predicted_pct_today": 0.9,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "LARSEN",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Taxation Amendment Bill to Incentivize Electronics and Offshore Funds",
+        "impact": "Tax exemptions attract foreign capital and accelerate domestic electronics manufacturing.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 1.1,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Auto PLI Scheme Disbursals to Reach \u20b94,000 Crore in FY27",
+        "impact": "Government subsidies strengthen EV manufacturing and competitive advantage.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BAJAJ-AUTO",
+          "predicted_pct_today": 1.0,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 9.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "EICHERMOT",
+          "predicted_pct_today": -0.5,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Fuel Exports Hit One-Year High Driven by Diesel Margins",
+        "impact": "Refining margin expansion boosts earnings visibility for private export refiners.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HPCL",
+          "predicted_pct_today": -0.6,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Kharif Sowing Drops 3% Threatening Rural Consumption Demand",
+        "impact": "Lower crop acreage raises food inflation risks and suppresses tractor demand.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ESCORTS",
+          "predicted_pct_today": -0.8,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

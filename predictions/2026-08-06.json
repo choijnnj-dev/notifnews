@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-06",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "RBI holds repo rate at 5.25% and raises growth forecast",
+        "impact": "Supports market sentiment and credit growth across banking and housing sectors.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DIVISLAB",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "West Asia conflict drives down Indian fertilizer production and imports",
+        "impact": "Escalating raw material costs strain profit margins for domestic fertilizer producers.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "UPL",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CHAMBLFERT",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Single license framework approved for nationwide container train operations",
+        "impact": "Improves operational flexibility and market share for rail freight service providers.",
+        "category": "legislative",
+        "source": "PIB India - Releases",
+        "gainer": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": 1.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VRLLOG",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India services growth decelerates to a 53-month low in July",
+        "impact": "Slowing demand signals broader economic fatigue, dragging down IT services stocks.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HUL",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Iran and Oman near agreement on Strait of Hormuz route",
+        "impact": "Reduced maritime risk lowers global oil prices, benefiting domestic oil refiners.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ONGC",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Government introduces 15-year tax break for rough diamond trading",
+        "impact": "Promotes domestic diamond trading infrastructure, boosting long-term retail jewelry volume growth.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TITAN",
+          "predicted_pct_today": 0.6,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "KALYANKJIL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Uzbekistan invites Indian companies to invest in mining and minerals",
+        "impact": "Secures critical mineral supplies and expands international assets for domestic miners.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "NMDC",
+          "predicted_pct_today": 0.5,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDALCO",
+          "predicted_pct_today": -0.2,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI drafts unified principle-based interest rate framework for all lenders",
+        "impact": "Protects consumers but compresses long-term net interest margins for non-banking lenders.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.7,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre sustains strong capital expenditure push despite global trade shocks",
+        "impact": "Public infrastructure spending underpins multi-year order book growth for engineering majors.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government mandates exporter registration for FDI e-commerce inventory exports",
+        "impact": "Eliminates speculative stocking and creates structured export channels for logistics operators.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DELHIVERY",
+          "predicted_pct_today": 1.0,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NYKAA",
+          "predicted_pct_today": -0.5,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

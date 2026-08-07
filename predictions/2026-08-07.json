@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-07",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "RBI Holds Repo Rate at 5.25% Maintaining Neutral Stance",
+        "impact": "Provides interest rate stability, boosting rate-sensitive realty and auto stocks.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "DLF",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SBIN",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Lok Sabha Passes Bill Permitting Charges on Digital UPI Payments",
+        "impact": "Enhances monetization prospects for payment gateways and private sector banks.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ONE97",
+          "predicted_pct_today": 1.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ZOMATO",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Parliament Passes Taxation Bill to Support Foreign Funds and Electronics",
+        "impact": "Boosts sentiment and tax clarity for domestic electronics manufacturers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HAVELLS",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Strait of Hormuz Security Concerns Drive Crude Oil Prices Higher",
+        "impact": "Surging crude prices benefit upstream explorers while squeezing oil marketing margins.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Indian Rice Export Prices Touch Ten-Month Highs on Supply Deficits",
+        "impact": "Improves realisations for paddy exporters while raising input costs for processors.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "KRBL",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Bilateral India-Israel Investment Protection Agreement Enters Into Force",
+        "impact": "Strengthens long-term defense, technology, and cybersecurity joint ventures between both nations.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BEL",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HAL",
+          "predicted_pct_today": -0.2,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Sustains Q1 Infrastructure Capex Push Despite Global Disruptions",
+        "impact": "Drives multi-year order book growth for major engineering and construction conglomerates.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.9,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Parliamentary Panel Urges Fast-Tracking India-US Trade Pact",
+        "impact": "Expands long-term export access for Indian IT services and critical technology sectors.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.6,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.2,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Plans Comprehensive Customs Tariff Overhaul by Budget FY28",
+        "impact": "Reduces manufacturing input costs long-term but increases competition for protected industries.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": 0.5,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.4,
+          "timeframe": "18 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Proposes Standardized Loan Rate Rules to Enhance Transparency",
+        "impact": "Protects borrowers while potentially squeezing net interest margins for non-banking lenders.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.4,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.7,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

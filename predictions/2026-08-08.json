@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-08",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Houthis Plan Red Sea Transit Fees Raising Shipping Costs",
+        "impact": "Escalating maritime fees raise import costs while boosting shipping freight rates.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "GESHIP",
+          "predicted_pct_today": 1.15,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": -0.65,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "High Gold Prices Dent Indian Demand Volume by 15 Percent",
+        "impact": "Subdued purchase volumes squeeze retail jewelry revenues despite high gold prices.",
+        "category": "macro",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "MUTHOOTFIN",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TITAN",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Standardizes Bank Loan Pricing Rules for Transparency",
+        "impact": "Strict loan pricing guidelines temporarily compress net interest margins for lenders.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.85,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Sanctions Bill Targets Russian Crude Oil Buyers",
+        "impact": "Secondary sanction risks create operational headwinds for refiners using Russian crude.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Rising Onion and LPG Prices Drive Food Inflation Higher",
+        "impact": "Rising food costs squeeze discretionary consumer spending and delay interest rate cuts.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "AWL",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "JUBLFOOD",
+          "predicted_pct_today": -0.75,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Government Plans Incentives for Induction Cookstove Adoption",
+        "impact": "Policy incentives drive long-term structural demand for electric kitchen appliance manufacturers.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TTKPRESTIG",
+          "predicted_pct_today": 0.4,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Probes Solar Cell Import Surge From Ethiopia",
+        "impact": "Anti-circumvention tariffs protect domestic solar equipment manufacturers from indirect dumping.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATAPOWER",
+          "predicted_pct_today": 0.5,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "STERLINWIL",
+          "predicted_pct_today": -0.4,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and Russia Deepen Railway and Aerospace Manufacturing Ties",
+        "impact": "Bilateral technology transfer accelerates long-term indigenization in defense and aerospace.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HAL",
+          "predicted_pct_today": 0.65,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 15.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BEML",
+          "predicted_pct_today": -0.25,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Cabinet Prepares Overhaul of Bilateral Investment Treaty Model",
+        "impact": "Investor-friendly treaty framework unlocks sustained foreign direct investment in infrastructure.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.55,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 18.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IRB",
+          "predicted_pct_today": -0.2,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Foreign Reserve Surge Strengthens Medium Term External Position",
+        "impact": "Strong balance of payments buffers defend currency stability, hurting export competitiveness.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.4,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.35,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

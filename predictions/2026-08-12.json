@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-12",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US Russia Sanctions Bill Threatens Tariffs on Indian Refiners",
+        "impact": "Rising crude acquisition costs squeeze refiner margins while upstream firms gain.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Kandla Port Congestion Delays Indian Rice Exports by 40 Days",
+        "impact": "Severe shipping delays impair inventory turnover and cash flows for exporters.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "KRBL",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "July Retail Inflation Likely Steady at 4.4 Percent",
+        "impact": "Stable price pressures support rate cut expectations, aiding rate-sensitive financials.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NTPC",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "July E-Way Bills Rise 6 Percent Reflecting Steady Goods Freight",
+        "impact": "Sustained freight movement signals stable trade activity benefiting logistics companies.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCI",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Road Ministry Revises BOT Model to Share Project Traffic Risk",
+        "impact": "Risk sharing and buyback options enhance bankability for highway developers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "PNCINFRA",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NHPC",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Centre Outlines \u20b92 Trillion Plan for 5,000-km Border Highways",
+        "impact": "Multi-year infrastructure capital expenditure significantly expands order books for construction majors.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LARSEN",
+          "predicted_pct_today": 0.9,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 18.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.3,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre Proposes Raising FDI Approval Threshold to \u20b915,000 Crore",
+        "impact": "Streamlined foreign investment clearances accelerate capital deployment into large scale projects.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IDEA",
+          "predicted_pct_today": -0.8,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Fitch Affirms India Sovereign Rating at BBB- With Stable Outlook",
+        "impact": "Sustained investment grade status stabilizes sovereign debt costs and encourages foreign capital.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VEDL",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Draft Rules Target Foreign Ownership Control in Alternative Investment Funds",
+        "impact": "Stricter fund structuring compliance restricts capital flexibility for asset management firms.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BSE",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "EDELWEISS",
+          "predicted_pct_today": -1.2,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Govt Hits 74 Percent Asset Sale Target via LIC Stake Offloading",
+        "impact": "Robust disinvestment aids fiscal balance but creates medium-term secondary market supply overhang.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.5,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "LICI",
+          "predicted_pct_today": -0.9,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

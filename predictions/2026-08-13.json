@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-13",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "RBI Proposes Mandatory 3-Month Benchmark Resets for Floating Loans",
+        "impact": "Faster rate repricing may temporarily squeeze net interest margins for lenders.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CHOLAFIN",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India July Retail Inflation Rises to 4.45% on Food Costs",
+        "impact": "Higher inflation dampens expectations for near-term RBI interest rate cuts.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US July CPI Moderates to 3.4% Boosting Rate Cut Hopes",
+        "impact": "Cooling US inflation supports valuation multiples across Indian IT exporters.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Announces 5000km Border Highway Push Worth Over \u20b92 Trillion",
+        "impact": "Massive infrastructure push expands order books for primary road builders.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "LARSEN",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "July E-Way Bill Generation Rises 6% Signaling Steady Trade",
+        "impact": "Rising goods movement directly boosts operational volumes for logistics providers.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "DELHIVERY",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India and Southern African Customs Union Launch Preferential Trade Talks",
+        "impact": "Tariff reductions expand long-term market access for auto and pharma exporters.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Raises 74% of Asset-Sale Target Driven by LIC",
+        "impact": "Strengthens sovereign fiscal balance while overhang on PSU supply eases.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "LICI",
+          "predicted_pct_today": 0.5,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "NRI Inflows Cross $37 Billion Driving Record Bank Deposit Growth",
+        "impact": "Sustained liquidity improves structural funding cost outlook for major banks.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.8,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MUTHOOTFIN",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Russia Warns of Maritime Retaliation Over Seized Commercial Vessels",
+        "impact": "Heightened geopolitical risks increase freight rates and oil supply volatility.",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "GESHIP",
+          "predicted_pct_today": 1.2,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.8,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Direct Tax Collections Surge 66% as Compliance Net Expands",
+        "impact": "Robust tax revenues enhance long-term fiscal headroom for capital expenditure.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "LARSEN",
+          "predicted_pct_today": 0.8,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DABUR",
+          "predicted_pct_today": -0.2,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

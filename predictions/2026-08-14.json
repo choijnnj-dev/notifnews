@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-14",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India Retail Inflation Rises to 4.45% in July",
+        "impact": "Diminishes expectations for near-term RBI benchmark interest rate cuts.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": -0.85,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Ukrainian Drone Strike Hits Major Russian Oil Refinery",
+        "impact": "Tightens global fuel supplies and widens regional refining margins.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.75,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Parliament Passes MMDR Bill Restricting State Mineral Taxation",
+        "impact": "Lowers royalty uncertainties and long-term tax liabilities for miners.",
+        "category": "legislative",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 1.15,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NTPC",
+          "predicted_pct_today": -0.55,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India July Merchandise Trade Deficit Widens to $31.98 Billion",
+        "impact": "Weakens rupee sentiment while hurting import-heavy industrial manufacturers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Supreme Court Pushes FSSAI on Front-of-Pack Warning Labels",
+        "impact": "Increases regulatory compliance and reformulation costs for packaged food makers.",
+        "category": "legislative",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "DABUR",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NESTLEIND",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Centre Plans Rs 2-Trillion Border Highway Infrastructure Push",
+        "impact": "Significantly expands multi-year order books for domestic infrastructure EPCs.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": -0.35,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Electronics Exports Surge 11-Fold to Rs 4.24 Lakh Crore",
+        "impact": "Accelerates supply chain localization and contract manufacturing volume growth.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 1.25,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 21.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.45,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and US Advance Framework on Bilateral Trade Pact",
+        "impact": "Insulates critical industrial export sectors from rising protectionist tariff risks.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BHARATFORG",
+          "predicted_pct_today": 0.85,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 11.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Overhauls Urea Subsidy Model to Curb Imbalance",
+        "impact": "Drives farm demand toward higher-margin complex and speciality fertilizers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": 0.95,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 13.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NFL",
+          "predicted_pct_today": -0.75,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre Secures 74% of Annual Asset Sale Target Early",
+        "impact": "Strengthens fiscal consolidation and reduces government sovereign borrowing pressure.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.65,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "LIC",
+          "predicted_pct_today": -0.8,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-15",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Strait of Hormuz Blockade Threats Spark Crude Supply Concerns",
+        "impact": "Lifts upstream energy realizations while squeezing state refiner fuel margins.",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.25,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Intensifies Stock Audits on Domestic Sugar Mills",
+        "impact": "Caps spot pricing flexibility and compresses mill operating margins.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.65,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Defence Ministry Signs \u20b91,577 Crore Loiter Munitions Deal",
+        "impact": "Expands order books and near-term revenue visibility for electronics suppliers.",
+        "category": "legislative",
+        "source": "PIB India",
+        "gainer": {
+          "ticker": "BEL",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India July Trade Deficit Hits Six-Month High",
+        "impact": "Depreciates rupee sentiment, aiding export-heavy software over consumer discretionary.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TITAN",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Retail Inflation Crosses RBI Midpoint Target to 4.45%",
+        "impact": "Delays monetary easing expectations, hurting interest-rate-sensitive real estate demand.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Government Plans Single-Window Clearances for Private Space Ventures",
+        "impact": "Speeds execution cycles and project approvals across precision aerospace engineering.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "MTARTECH",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.35,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "NDB Commits $7.5 Billion Local Currency Infrastructure Funding",
+        "impact": "Expands competitive project financing for capital goods and engineering majors.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.85,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PFC",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Flags Indian Trade Corridors in Tariff Evasion",
+        "impact": "Heightens secondary regulatory scrutiny over private port logistics operators.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": 0.3,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": -0.95,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Achieves 74% FY27 Disinvestment Goal via Stake Sales",
+        "impact": "Improves sovereign fiscal position while creating supply overhang on PSU offerings.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "LICI",
+          "predicted_pct_today": -0.8,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Fitch Retains India BBB- Sovereign Rating Forecasting 6.4% Growth",
+        "impact": "Underpins stable institutional foreign inflows into core large-cap industrial conglomerates.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.6,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 9.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IDEA",
+          "predicted_pct_today": -0.75,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-16",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Government Tightens Sugar Mill Scrutiny Amid High Prices",
+        "impact": "Mandatory stock checks will cap margins for domestic sugar producers.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.85,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Retail Inflation Crosses RBI Midpoint Target to 4.45%",
+        "impact": "Higher food inflation pushes back RBI policy rate cut timelines.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Merchandise Trade Deficit Widens to $31.98 Billion in July",
+        "impact": "Widening deficit pressures rupee, impacting import-dependent manufacturing margins.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Middle East Tensions Rise Over Strait of Hormuz",
+        "impact": "Elevated regional supply risks drive crude prices higher immediately.",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.35,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Imposes Regulatory Penalty on IndusInd Bank",
+        "impact": "Regulatory non-compliance action triggers near-term stock selling pressure.",
+        "category": "legislative",
+        "source": "RBI",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.35,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INDUSINDBK",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India Launches National Critical Mineral Mission and Processing Parks",
+        "impact": "Secures strategic raw materials and boosts domestic EV manufacturing ecosystem.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "NMDC",
+          "predicted_pct_today": 0.85,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 16.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "EXIDEIND",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Chemicals Sector Targets $81 Billion Exports by 2030",
+        "impact": "Multi-year capex drives market share gains in specialty chemicals.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "SRF",
+          "predicted_pct_today": 0.9,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 22.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATACHEM",
+          "predicted_pct_today": -0.2,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Engineering Services Exports Reach $13.8 Billion Over Decade",
+        "impact": "Structural global demand boosts domestic engineering and R&D providers.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LTTS",
+          "predicted_pct_today": 1.1,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 18.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "WIPRO",
+          "predicted_pct_today": -0.25,
+          "timeframe": "18 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Single-Window System Planned for Space Sector Approvals",
+        "impact": "Faster regulatory clearances accelerate commercial space and defense manufacturing.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "MTARTECH",
+          "predicted_pct_today": 1.4,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 24.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.15,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "NDB Plans $7.5 Billion Local Currency Funding in India",
+        "impact": "Expands affordable domestic debt capital for long-gestation infrastructure projects.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.65,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PFC",
+          "predicted_pct_today": -0.2,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

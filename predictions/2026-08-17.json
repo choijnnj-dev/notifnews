@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-17",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India retail inflation exceeds RBI 4 percent target in July",
+        "impact": "Moderates expectations for near-term Reserve Bank of India policy rate cuts.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "July merchandise trade deficit widens to six month high",
+        "impact": "Pressures domestic currency and raises input costs for net import sectors.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI penalizes IndusInd Bank for regulatory non-compliance",
+        "impact": "Dampens near-term sentiment on lender and raises sector compliance scrutiny.",
+        "category": "legislative",
+        "source": "RBI",
+        "gainer": {
+          "ticker": "KOTAKBANK",
+          "predicted_pct_today": 0.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INDUSINDBK",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "West Asia conflict escalation exacerbates Red Sea trade bottleneck",
+        "impact": "Drives freight costs higher and strains working capital for exporters.",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "SCI",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US consumer inflation cools to 3.4 percent in July",
+        "impact": "Boosts global risk sentiment and supports foreign institutional inflows into IT.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "INFY",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "PM GatiShakti clears 396 infra projects worth 18.66 lakh crore",
+        "impact": "Fuels multi-year order book growth for domestic engineering and construction companies.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.2,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Q1 GDP projected at 7.3 percent on consumption resilience",
+        "impact": "Underpins steady multi-year corporate earnings growth and credit expansion in cyclicals.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ITC",
+          "predicted_pct_today": -0.2,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "NITI Aayog targets 81 billion dollar chemical exports by 2030",
+        "impact": "Accelerates capital expenditure and global supply substitution in specialty chemicals manufacturing.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "PIIND",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 16.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "UPL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government considers 50 bps cut in farm credit subvention",
+        "impact": "Strengthens public fiscal management while slightly tightening farm sector borrowing capacity.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.4,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ESCORTS",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Prolonged maritime chokepoints compel long-term sovereign logistics reshaping",
+        "impact": "Forces permanent logistics rerouting, benefiting domestic intermodal transport and freight providers.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": 0.5,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": -0.4,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

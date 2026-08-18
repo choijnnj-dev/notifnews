@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-18",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "July CPI Inflation Rises to 4.45% Breaching RBI Midpoint",
+        "impact": "Triggers rate cut delay fears, pressuring sensitive banking stocks.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -1.25,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Hormuz and Red Sea Tensions Escalate Energy Freight Risks",
+        "impact": "Higher freight and crude costs lift upstream margins but hurt paints.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Trade Deficit Widens to Six-Month High of $31.98B",
+        "impact": "Weakens rupee outlook, favoring large-cap IT exporters over oil refiners.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.75,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Curbs FX Swap Window After NRI Deposits Top $50B",
+        "impact": "Tighter rupee liquidity boosts large PSU deposit-rich banks.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CHOLAFIN",
+          "predicted_pct_today": -1.05,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Black Sea Supply Disruptions Drive Record Soyoil Imports",
+        "impact": "Higher processing volumes benefit major edible oil refiners immediately.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "AWL",
+          "predicted_pct_today": 1.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PATANJALI",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "PM GatiShakti Evaluates 396 Infrastructure Projects Worth 18.66 Lakh Crore",
+        "impact": "Massive pipeline accelerates capital goods order books over multi-year horizon.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IDEA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Govt Weighs Scrapping Bank Guarantee Norms for MSME Procurement",
+        "impact": "Eases working capital for small vendors while trimming guarantee fees.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BEL",
+          "predicted_pct_today": 0.65,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 9.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BANDHANBNK",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Rural Joblessness Drops to 4.5% Driving Consumption Uptick",
+        "impact": "Rising rural disposable income strengthens tractor and farm equipment demand.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "M&M",
+          "predicted_pct_today": 0.85,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TEAMLEASE",
+          "predicted_pct_today": -0.6,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 6.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Contests US 50% Quartz Tariff Quota at WTO",
+        "impact": "Protracted dispute headwinds hit dedicated quartz exporters to the US.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "KAJARIACER",
+          "predicted_pct_today": 0.45,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "POKARNA",
+          "predicted_pct_today": -1.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "ECMS Hardware Scheme Reaches 38 Operational Manufacturing Units",
+        "impact": "Accelerates domestic electronics supply chains and local value addition.",
+        "category": "legislative",
+        "source": "PIB India - Releases",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 1.1,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 16.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.35,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

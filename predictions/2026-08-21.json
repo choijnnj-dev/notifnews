@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-21",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Govt allows duty-free sugar imports and halves stock limits",
+        "impact": "Lowers domestic realizations for sugar mills while softening FMCG input costs",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.75,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.85,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "July core sector growth eases to 5.4 percent",
+        "impact": "Slowdown in steel and power output dampens heavy industry sentiment",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "ULTRACEMCO",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI MPC minutes warn of rate tightening on inflation",
+        "impact": "Hawkish tone pressures rate-sensitive sectors and real estate valuations",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -1.35,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US expands strict economic sanctions against Iran",
+        "impact": "Crude oil supply risk lifts upstream energy but hurts refiners",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Govt considers scrapping MSME performance bank guarantees",
+        "impact": "Improves working capital liquidity for vendors while clipping bank fee revenue",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "BHEL",
+          "predicted_pct_today": 0.95,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SBIN",
+          "predicted_pct_today": -0.45,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India-EU trade pact finalized ahead of year-end signing",
+        "impact": "Expands duty-free textile exports while opening domestic auto competition",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "KPRMILL",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "FTP amended to facilitate global trade invoicing in rupees",
+        "impact": "Boosts cross-border domestic settlement volume for public sector lenders",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.55,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India secures long-term fuel supply agreement with Mauritius",
+        "impact": "Guarantees steady refined product export throughput for Indian oil marketing companies",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 0.7,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MRPL",
+          "predicted_pct_today": -0.35,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Ind-Ra raises FY27 GDP growth forecast to 6.8%",
+        "impact": "Stronger macroeconomic expansion supports long-term industrial infrastructure capex",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.65,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Consumers shift toward premium petrol over E20 concerns",
+        "impact": "Higher premium sales lift retail marketing margins but dent ethanol players",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 0.5,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PRAJIND",
+          "predicted_pct_today": -0.85,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

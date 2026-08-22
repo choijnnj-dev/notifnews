@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-22",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Centre Allows Duty-Free Sugar Imports Amid Domestic Price Surge",
+        "impact": "Pressures domestic sugar mill margins while softening input costs for confectioners.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.85,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -2.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Escalating West Asia Tensions Fuel Crude Supply Disruption Fears",
+        "impact": "Elevated Brent crude outlook aids upstream explorers but hurts fuel retailers.",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.25,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Minutes Signal Hawkish Stance Over Sticky Retail Inflation",
+        "impact": "Tightening expectations dampen sentiment across rate-sensitive interest-rate sectors.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Forex Reserves Jump Nearly Ten Billion Dollars to Record High",
+        "impact": "Bolsters external sector stability and supports systemic banking liquidity.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.65,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Frontloads Farm Spending to Cushion Deficient Monsoon Impact",
+        "impact": "Direct fiscal support drives agrochemical demand despite regional rainfall deficits.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HEROMOTOCO",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Cabinet Clears 1.2 Billion Dollar Incentive for Heavy Equipment",
+        "impact": "Accelerates domestic manufacturing of high-value machinery and reduces Chinese import reliance.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "BEML",
+          "predicted_pct_today": 1.75,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Unveils 62,500 Crore Rupee Mobile Manufacturing Scheme",
+        "impact": "Substantially expands localized electronics production capacity and long-term export scale.",
+        "category": "legislative",
+        "source": "PIB India",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 2.1,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 22.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ITI",
+          "predicted_pct_today": -0.55,
+          "timeframe": "18 months",
+          "overall_direction": "down",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "E20 Petrol Mileage Concerns Accelerate Shift Toward Premium Fuels",
+        "impact": "Improves margin realization for OMCs while depressing pure-play ethanol valuation premiums.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PRAJIND",
+          "predicted_pct_today": -1.35,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Foreign Trade Policy Amendments Facilitate Global Rupee Settlements",
+        "impact": "Reduces foreign exchange transaction friction for heavy capital goods exporters.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 11.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Eased Border-Country Investment Norms Bring 5,000 Crore Rupee FDI",
+        "impact": "Revives joint-venture supply chains across high-tech manufacturing and datacenters.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "KAYNES",
+          "predicted_pct_today": 1.45,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 13.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "AMBER",
+          "predicted_pct_today": -0.5,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

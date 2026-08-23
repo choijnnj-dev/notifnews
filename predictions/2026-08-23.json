@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-23",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India Approves Duty-Free Sugar Imports to Curb Surging Local Prices",
+        "impact": "Cools food inflation but compresses domestic sugar mill operating margins.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.75,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.35,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Iran Threatens Persian Gulf Oil Routes Over Expanding US Sanctions",
+        "impact": "Spikes global crude prices, elevating raw material expenses for downstream firms.",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.15,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.85,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Minutes Signal Potential Policy Tightening Amid Persistent High Inflation",
+        "impact": "Tightens credit environment, dampening demand for rate-sensitive real estate developers.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Motorists Shift to Premium Petrol Amid Vehicle Ethanol Blending Concerns",
+        "impact": "Expands retail fuel margins while dampening demand for bio-distillery equipment.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PRAJIND",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Swap Facility Attracts Over $72 Billion Forex Inflows",
+        "impact": "Improves systemic foreign exchange liquidity, stabilizing domestic funding conditions for banks.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "US-India Bilateral Trade Agreement Approaches Finalisation for October Signoff",
+        "impact": "Expands tariff relief and export volumes for Indian pharmaceutical manufacturers.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.4,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India-UK Free Trade Agreement Halves Import Tariffs on Scotch",
+        "impact": "Expands premium liquor sales while pressuring domestic prestige spirit market share.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "UNITEDSPR",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RADICO",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Clears \u20b94,896 Crore Foreign Investment Under Eased Norms",
+        "impact": "Accelerates high-tech hardware localisation and boosts contract electronics manufacturing capacity.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 10.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.35,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre Frontloads Agricultural Spending to Buffer Rural Economy Against El-Nino",
+        "impact": "Supports farm incomes, sustaining tractor purchase volumes through irregular weather cycles.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "ESCORTS",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Foreign Trade Policy Amendments Facilitate Global Rupee Invoicing Mechanisms",
+        "impact": "Reduces cross-border transaction costs for large industrial capital goods exporters.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.5,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.35,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

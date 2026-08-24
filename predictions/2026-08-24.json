@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-24",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India permits duty-free sugar imports to cool surging local prices",
+        "impact": "Lowers raw material costs for FMCG; squeezes domestic sugar mill margins.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.85,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.75,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI MPC minutes signal hawkish bias and potential rate hikes",
+        "impact": "Pressures rate-sensitive real estate while supporting net interest margins for lenders.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Consumers shift to premium petrol amid vehicle E20 blend concerns",
+        "impact": "Boosts marketing margins for fuel retailers; dampens ethanol equipment pure-plays.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PRAJIND",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India core sector expansion slows to 5.4% in July",
+        "impact": "Weaker infrastructure momentum prompts rotation from capital goods into defensive IT.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "LT",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Forex swap facility generates $72.8 billion in dollar inflows",
+        "impact": "Improves systemic banking liquidity and lowers short-term borrowing costs.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.65,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.35,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India-Japan mission targets semiconductor manufacturing and electronics partnerships",
+        "impact": "Drives multi-year capital expenditure and technology transfers into domestic electronics.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "KAYNES",
+          "predicted_pct_today": 1.1,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US-India bilateral trade agreement approaches final stage of completion",
+        "impact": "Enhances US market access for export-heavy Indian pharmaceutical manufacturers.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.75,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre eases land-border FDI approvals for technology and AI",
+        "impact": "Accelerates capital inflows into domestic electronics manufacturing services ecosystem.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 0.9,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HAVELLS",
+          "predicted_pct_today": -0.25,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government frontloads agricultural spending to mitigate El Nino risks",
+        "impact": "Supports agrochemical demand while rural discretionary vehicle purchases remain subdued.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HEROMOTOCO",
+          "predicted_pct_today": -0.6,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Parliament passes MMDR amendment transferring critical mineral control centrally",
+        "impact": "Streamlines mining clearances for large diversified miners over state-level entities.",
+        "category": "legislative",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "VEDL",
+          "predicted_pct_today": 0.85,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 9.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NMDC",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

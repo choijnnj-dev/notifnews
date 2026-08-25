@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-25",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India allows duty-free sugar imports to cool domestic prices",
+        "impact": "Pressures domestic mill realizations while lowering input costs for packaged food makers.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India lifts export ban on wheat flour with immediate effect",
+        "impact": "Increases outbound shipment volumes and revenue for domestic agricultural processing exporters.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "AWL",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NESTLEIND",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US sanctions and Dubai halt disrupt Indian exports to Iran",
+        "impact": "Spiking freight and payment bottlenecks hit basmati rice and pharma exporters.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SCI",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "KRBL",
+          "predicted_pct_today": -1.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Air passenger service prices surge 32 percent in June quarter",
+        "impact": "Higher airfare yields expand near-term operating margins for commercial airline operators.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IRCTC",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Consumer demand shifts to premium petrol amid E20 engine worries",
+        "impact": "Improves marketing margins for fuel retailers while denting pure-play ethanol sentiment.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PRAJIND",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Forex inflows surge toward 100 billion dollars via FCNR deposits",
+        "impact": "Strengthens external balances, lowers systemic funding costs, and firms rupee liquidity.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government to ease semiconductor and auto component manufacturing norms",
+        "impact": "Accelerates domestic capacity addition, localized supply chains, and high-tech capex execution.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "MOTHERSON",
+          "predicted_pct_today": 1.2,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BOSCHLTD",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India clears foreign direct investments from border-sharing countries",
+        "impact": "Relieves hardware component bottlenecks and stimulates joint venture electronics manufacturing expansion.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "AMBER",
+          "predicted_pct_today": 1.3,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DIXON",
+          "predicted_pct_today": -0.7,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and GCC bloc accelerate free trade agreement negotiations",
+        "impact": "Enhances long-term export access and raw material sourcing for energy conglomerates.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 9.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SRF",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India full-year GDP growth trajectory accelerates toward 7 percent",
+        "impact": "Robust industrial growth and private capex drive sustained order-book execution.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 1.0,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TITAN",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

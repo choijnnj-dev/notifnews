@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-29",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India Forex Reserves Surge to Record High of $729.3 Billion",
+        "impact": "Rupee strength buffers import bill while slightly muting IT export sentiment.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 0.75,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India July Industrial Output Expands 6.7% Led by Manufacturing",
+        "impact": "Robust factory and capital goods production lifts industrial sector momentum.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Enforces Fortnightly Quota System for Sugar Mill Sales",
+        "impact": "Faster domestic supply release pressures mill margins while aiding food processors.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -0.85,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "North Indian Tea Auction Prices Slump 17% Amid Production Issues",
+        "impact": "Depressed bulk realizations strain tea planters while lowering beverage input costs.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TATACONSUM",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MCLEODRUSS",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Fed Jackson Hole Address Stirs Global Bond Yield Uncertainty",
+        "impact": "Heightened interest rate uncertainty induces cautious institutional flows in technology stocks.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "CIPLA",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFOSYS",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Argentina to Lower Market Entry Barriers for Indian Pharma Sector",
+        "impact": "Accelerates Latin American export growth and expands formulation market access.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "DRREDDY",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "AUROPHARMA",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and Canada Fast-Track Bilateral Investment and Minerals Treaty",
+        "impact": "Enhances long-term supply chain security for critical mineral sourcing and processing.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "HINDALCO",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VEDL",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Public Sector Banks Directed to Fund Integrated Farm Value Chains",
+        "impact": "Expands formal rural credit volume and agricultural infrastructure capital expenditure.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.65,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BANDHANBNK",
+          "predicted_pct_today": -0.35,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Rising Feed Diversion for Ethanol Production Escalates Poultry Costs",
+        "impact": "Higher grain conversion lifts biofuel engineering demand while squeezing poultry margins.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "PRAJIND",
+          "predicted_pct_today": 0.85,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VENKYS",
+          "predicted_pct_today": -0.9,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Finance Ministry Prepares Union Budget 2027 Around Fiscal Prudence",
+        "impact": "Tighter fiscal monitoring moderates capex growth across unprioritized public undertakings.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 0.4,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

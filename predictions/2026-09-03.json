@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-03",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US-Iran Escalation and Hormuz Tensions Threaten Energy Supplies",
+        "impact": "Rising crude prices inflate import bills and compress fuel marketing margins.",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Services PMI Growth Stays Near Four-Year Low",
+        "impact": "Subdued new orders signal slowing momentum across domestic discretionary services.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "INFY",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INDHOTEL",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Sun Pharma Concedes US MFN Drug Price Reductions",
+        "impact": "Mandated price concessions threaten innovative portfolio revenues in key export market.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "CIPLA",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": -1.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Drains Systemic Liquidity via Overnight VRRR Auctions",
+        "impact": "Absorption of surplus funds raises short-term borrowing costs for non-bank lenders.",
+        "category": "macro",
+        "source": "RBI",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre Defends Q1 GDP Methodology Amid Data Credibility Debate",
+        "impact": "Official validation of 7.8% expansion steadies broader institutional investment sentiment.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "JCRA Upgrades India Sovereign Credit Rating to A Minus",
+        "impact": "Lower risk premiums will reduce long-term external funding costs significantly.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "PFC",
+          "predicted_pct_today": 1.1,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 13.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and Russia Settle 96 Percent Trade in Rupee-Rouble",
+        "impact": "De-dollarized settlement permanently secures discounted hydrocarbon supplies against foreign sanctions.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Engages UK and EU to Secure Critical Minerals",
+        "impact": "Strategic mineral processing pacts de-risk long-term domestic energy transition manufacturing.",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "HINDALCO",
+          "predicted_pct_today": 0.8,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHARATFORG",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "GIFT IFSC Surpasses Fifty Billion Dollars in Offshore Banking",
+        "impact": "Structural shift of foreign currency liquidity into domestic offshore jurisdiction.",
+        "category": "macro",
+        "source": "PIB India",
+        "gainer": {
+          "ticker": "BSE",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 15.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CHOLAFIN",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Civil Aviation Ministry Forms Aircraft Leasing and Financing Panel",
+        "impact": "Onshore aircraft financing regime will reduce long-term capital flight and fleet expenses.",
+        "category": "legislative",
+        "source": "PIB India",
+        "gainer": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": 1.0,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SPICEJET",
+          "predicted_pct_today": -0.8,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-06",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US Strikes Iranian Oil Tankers Escalating Middle East Conflict",
+        "impact": "Surging crude prices threaten oil marketing margins while lifting upstream drillers.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Becomes Top Diesel Supplier to Europe Amid Disruptions",
+        "impact": "Refining margins expand as Indian private exporters capture European fuel shortfall.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.75,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Foreign Exchange Reserves Surge to Record 740.8 Billion Dollars",
+        "impact": "Bolstered external buffer strengthens rupee and eases public sector bank liquidity.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.65,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.55,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Announces 30-Day VRRR Auction Under Liquidity Facility",
+        "impact": "Temporary cash drain pushes up short-term yields, raising NBFC borrowing costs.",
+        "category": "macro",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "GST Council Meeting Likely Postponed After State Consultations",
+        "impact": "Delayed tax rationalisation dampens immediate sentiment for consumer staple manufacturers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.35,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DABUR",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Japan Agency Upgrades India Sovereign Credit Rating to A-",
+        "impact": "Institutional offshore debt costs decline, supporting multi-year banking capital formation.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NMDC",
+          "predicted_pct_today": -0.35,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Tax Department Expands AIS Scope to Track Off-Market Assets",
+        "impact": "Tighter compliance funnels domestic wealth away from shadow channels into exchanges.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BSE",
+          "predicted_pct_today": 0.85,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 11.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MUTHOOTFIN",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Household Consumption Patterns Shift Steadily Toward Discretionary Spending",
+        "impact": "Lifestyle and premium retail outgrow volume-dependent rural essential staples long-term.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TITAN",
+          "predicted_pct_today": 0.75,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 16.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Delhi Convenes Global Sovereign Funds Targeting 1 Trillion Capital",
+        "impact": "Long-term patient capital unlocks complex domestic energy and infrastructure execution.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.7,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IDEA",
+          "predicted_pct_today": -0.55,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "August E-Way Bill Registrations Rise 7.7 Percent Year-on-Year",
+        "impact": "Consistent inter-state transit density supports logistics profitability and fleet growth.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": 0.65,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

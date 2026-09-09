@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-09",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US strikes on Iranian tankers push crude towards $100",
+        "impact": "Crude surge elevates upstream profits while squeezing marketing margins",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Crisil flags rabi crop risks from deficient September rains",
+        "impact": "Dry weather dampens rural disposable incomes and tractor purchase sentiment",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ESCORTS",
+          "predicted_pct_today": -1.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Domestic sugar price drop renders planned import volumes unviable",
+        "impact": "Falling domestic realizations squeeze sugar miller margins despite reduced imports",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Banks park \u20b93.53 lakh crore in overnight RBI VRRR",
+        "impact": "Surplus banking system liquidity anchors overnight money market borrowing rates",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CANBK",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Kenya forms panel to resolve Tata Chemicals plant compliance",
+        "impact": "Regulatory panel eases operational disruption fears at crucial soda ash unit",
+        "category": "geopolitical",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "TATACHEM",
+          "predicted_pct_today": 1.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DEEPAKNTR",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Government aggregates factory power demand for green energy switch",
+        "impact": "Pooled green procurement accelerates industrial energy transition over fossil fuels",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATAPOWER",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IGL",
+          "predicted_pct_today": -0.6,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Modi inaugurates \u20b935,000 crore projects including Western Freight Corridor",
+        "impact": "Western freight corridor expansion substantially trims long-haul rail transit times",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": 1.2,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 10.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BLUEDART",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India seeks Russian fighter jet tech and nuclear plants",
+        "impact": "Advanced defense and nuclear tie-ups bolster domestic aerospace capabilities",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HAL",
+          "predicted_pct_today": 1.4,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 15.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Middle East tanker strikes force India crude supply diversification",
+        "impact": "Prolonged Hormuz disruptions keep crude input costs elevated for industrials",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "OIL",
+          "predicted_pct_today": 1.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.8,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Moody's warns era of cheap money ending globally",
+        "impact": "Higher-for-longer regime squeezes leveraged developers while favoring deposit-rich banks",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.5,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.9,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-13",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Commercial ship struck near Strait of Hormuz raising transit risks",
+        "impact": "Escalating maritime hostilities push crude prices and international freight rates higher.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": -1.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "August retail inflation projected to reach 20-month high",
+        "impact": "Impending headline inflation spike dampens expectations of near-term interest rate cuts.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI announces 100,000 crore bond sale to absorb liquidity",
+        "impact": "Liquidity withdrawal lifts short-end bond yields and increases bank funding costs.",
+        "category": "macro",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -1.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Russia imports record volumes of Indian fuel after refinery hits",
+        "impact": "Unprecedented Russian refined product imports widen gross refining margins for exporters.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US determines anti-dumping duties on Indian solar panel exporters",
+        "impact": "Imposed American tariffs threaten order flow and margins for domestic manufacturers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATAPOWER",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India and Russia target 100 billion bilateral trade by 2030",
+        "impact": "Bilateral expansion provides durable long-term supply agreements for crude and minerals.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 11.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "BRICS pushes cross-border local currency settlement and UPI linkages",
+        "impact": "Alternative settlement rails progressively reduce dollar-denominated cross-border transactional friction.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "AXISBANK",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Insolvency regulator proposes tighter personal guarantor recovery safeguards",
+        "impact": "Strict promoter accountability improves long-term bad loan resolutions across banking assets.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.7,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "GMRINFRA",
+          "predicted_pct_today": -0.8,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "BRICS bloc formally opposes unilateral carbon border adjustments",
+        "impact": "Coordinated diplomatic pushback delays punitive European emissions penalties on metal exports.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 9.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MOTHERSON",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "IMF confirms strong 7.8 percent Indian GDP expansion pace",
+        "impact": "Robust macroeconomic momentum maintains steady institutional capital flows into capital goods.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 13.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

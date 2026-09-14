@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-14",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India August Wholesale Inflation Jumps to 9.92% Above Estimates",
+        "impact": "Spiking wholesale price index dims domestic interest rate cut expectations",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.85,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Finalizes Anti-Dumping Duties on Indian Solar Cells and Modules",
+        "impact": "Export tariff barrier pressures sales volumes and realization for domestic manufacturers",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATAPOWER",
+          "predicted_pct_today": -1.45,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Announces Rs 1 Lakh Crore OMO Bond Sale",
+        "impact": "Large liquidity absorption pushes yields up, denting banking treasury profits",
+        "category": "macro",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SBIN",
+          "predicted_pct_today": -1.25,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Indian Refiners Ship Record Fuel to Russia Amid Disrupted Capacity",
+        "impact": "Elevated export crack spreads boost earnings for Indian petroleum refiners",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Major G7 Central Bank Decisions Pose Global Inflation Test",
+        "impact": "Heightened monetary tightening worries trigger foreign institutional equity outflows",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HCLTECH",
+          "predicted_pct_today": 0.65,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -1.35,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "EU FTA Concession Permits Duty-Free Quota for Indian Cars",
+        "impact": "Broadens European export access, accelerating passenger vehicle manufacturing scale",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": 1.35,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASHOKLEY",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "IMF Highlights India 7.8% GDP Expansion Despite Energy Shocks",
+        "impact": "Structural macro resilience supports sustained multitrillion-rupee private capital expenditure",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.9,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.55,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Regulator Tightens Personal Guarantor Insolvency Resolution Norms",
+        "impact": "Accelerates bad-debt recovery timelines and de-risks bank credit portfolios",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.75,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 9.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.6,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 4.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India UAE Target $200 Billion Bilateral Trade by 2032",
+        "impact": "Comprehensive corridor investments expand port throughput and cross-border logistics",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": 1.15,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DEEPAKNTR",
+          "predicted_pct_today": -0.45,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

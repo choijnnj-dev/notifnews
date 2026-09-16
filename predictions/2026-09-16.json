@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-16",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US House Advances Bill Imposing 100% Tariffs on India",
+        "impact": "Geopolitical tariff threats prompt sharp foreign institutional outflows from large exporters.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -1.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "August Retail Inflation Breaches RBI Midpoint Target at 4.82%",
+        "impact": "Surging price pressures elevate bond yields and stoke early rate-hike speculation.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "August Goods Exports Surge 26% Narrowing Trade Deficit",
+        "impact": "Rebounding export shipments support domestic manufacturing sentiment and trade balance.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BHARATFORG",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TITAN",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Severe El Nino Drought Threatens 53% of Indian Farmland",
+        "impact": "Monsoon stress dampens rural tractor demand while stoking spot commodity prices.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": 1.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MM",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "G7 Central Banks Face Crucial Interest Rate Decisions This Week",
+        "impact": "Global monetary uncertainty dampens risk appetite across emerging equity markets.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TRENT",
+          "predicted_pct_today": -1.3,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "New Zealand Parliament Passes Landmark India Free Trade Agreement",
+        "impact": "Eliminating bilateral tariffs unlocks sustained pharmaceutical and engineering market access.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.5,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HATSUN",
+          "predicted_pct_today": -0.6,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Ramps Up Preparedness for EU Carbon Border Tax",
+        "impact": "Mandatory European carbon reporting pressures heavy industrial margins and export volumes.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TATAPOWER",
+          "predicted_pct_today": 0.6,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 16.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "JSWSTEEL",
+          "predicted_pct_today": -0.8,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 11.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Bangladesh Government Reviews 101 Bilateral Pacts with India",
+        "impact": "Treaty renegotiations threaten cross-border infrastructure and cross-border power purchase agreements.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 0.4,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ADANIPOWER",
+          "predicted_pct_today": -1.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 13.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Challenges Indian Rice Stock Diversion for Ethanol Production",
+        "impact": "WTO trade challenges threaten feed-grain subsidies for domestic distillery expansion.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 0.3,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PRAJIND",
+          "predicted_pct_today": -1.1,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 10.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "UK and EU Pacts Target Five Billion Dollar Footwear Exports",
+        "impact": "Zero-duty access into Europe spurs long-term manufacturing capex and orders.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BATAINDIA",
+          "predicted_pct_today": 0.7,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RELAXO",
+          "predicted_pct_today": -0.4,
+          "timeframe": "18 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

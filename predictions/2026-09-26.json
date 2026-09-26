@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-26",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Centre Trims FY27 Market Borrowing by Rs 1.2 Trillion",
+        "impact": "Eases sovereign bond yields, lifting bank treasury valuations.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Cuts Export Proceeds Repatriation Window to Nine Months",
+        "impact": "Boosts domestic dollar liquidity while squeezing exporter working capital float.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Reduces Edible Oil Import Duties to Tame Inflation",
+        "impact": "Lowers FMCG input costs but compresses domestic refiners' operating margins.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PATANJALI",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "CBIC Streamlines Documentation Rules for UK Preferential Imports",
+        "impact": "Eases industrial import clearances, heightening competition for domestic engineering manufacturers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHARATFORG",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "West Asia Conflicts Escalate and Push Crude Oil Prices Higher",
+        "impact": "Enhances upstream exploration realisations while depressing downstream refining marketing margins.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India-US Trade Pact Enters Final Stages Toward Bilateral Closure",
+        "impact": "Expands duty-free market access for Indian exporters across key sectors.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DIXON",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Cabinet Prepares Overhaul of Bilateral Investment Treaty Framework",
+        "impact": "Reduces litigation delays to accelerate long-term multinational capital inflows.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and France Deepen EPR Nuclear Power Deployment Talks",
+        "impact": "Expands domestic clean baseload equipment contracts over multi-year project cycles.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BHEL",
+          "predicted_pct_today": 1.1,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NTPC",
+          "predicted_pct_today": -0.5,
+          "timeframe": "18 months",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and Australia Advance Critical Minerals and CECA Negotiations",
+        "impact": "Secures lithium and rare mineral supply lines for domestic manufacturing.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 7.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDALCO",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and Mexico Agree Terms for Preferential Trade Pact",
+        "impact": "Drives automotive and pharmaceutical outbound shipments into Latin American markets.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BAJAJ-AUTO",
+          "predicted_pct_today": 0.9,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TVSMOTOR",
+          "predicted_pct_today": -0.4,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

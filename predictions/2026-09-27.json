@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-27",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Centre trims FY27 market borrowing by 1.2 trillion rupees",
+        "impact": "Government bond yields decline, expanding banks' treasury profit margins.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.85,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "POWERGRID",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Trump rejects Iran offer to reopen Strait of Hormuz",
+        "impact": "Elevated crude prices threaten oil marketing margins and inflation metrics.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre slashes import duty on cooking edible oils",
+        "impact": "Cheaper inputs aid food processors while squeezing domestic edible oil refiners.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.65,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "AWL",
+          "predicted_pct_today": -1.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI shortens export remittance repatriation deadline to nine months",
+        "impact": "Boosts near-term dollar inflows, easing immediate depreciation pressure on rupee.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "WIPRO",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India forex reserves drop by 14.9 billion dollars weekly",
+        "impact": "Defending currency drains systemic liquidity, pushing short-term funding costs higher.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.75,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "US-India bilateral trade agreement nears final ninety percent completion",
+        "impact": "Lowers cross-border trade friction and expands access for key exporters.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DRREDDY",
+          "predicted_pct_today": 0.6,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BDL",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and France discuss EPR nuclear reactors and pumped hydro",
+        "impact": "Expands long-term zero-carbon baseload power generation and storage infrastructure.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BHEL",
+          "predicted_pct_today": 0.7,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "18 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Cabinet revamping Bilateral Investment Treaty rules excluding retrospective taxes",
+        "impact": "Enhances foreign capital safety and sparks long-term direct investment inflows.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VEDL",
+          "predicted_pct_today": -0.35,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and Australia accelerate CECA trade pact and critical minerals",
+        "impact": "Secures stable raw material supply chains for electric vehicles and electronics.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "EXIDEIND",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and Mexico finalize terms for preferential trade agreement",
+        "impact": "Expands Indian auto and pharmaceutical market penetration across Latin America.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BAJAJ-AUTO",
+          "predicted_pct_today": 0.75,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CIPLA",
+          "predicted_pct_today": -0.25,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

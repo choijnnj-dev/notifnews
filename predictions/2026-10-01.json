@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-01",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India September Manufacturing PMI Hits 7-Month High at 55.1",
+        "impact": "Boosts industrial sentiment; trims expectations for aggressive central bank easing",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LARSENTOUBRO",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "September Gross GST Collections Surge 14.7% to Rs 2.04 Lakh Crore",
+        "impact": "Signals strong domestic consumption and bolsters sovereign fiscal headroom",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DMART",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Drains Liquidity via Reverse Repos to Curb Inflation Risks",
+        "impact": "Tightens interbank cash availability, lifting short-term yields and pressuring NBFCs",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Textiles Ministry Extends RoSCTL Rebate Scheme Through December 2026",
+        "impact": "Improves cash flows and operating margins for apparel export companies",
+        "category": "legislative",
+        "source": "PIB India - Releases",
+        "gainer": {
+          "ticker": "GOKEX",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PAGEIND",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Mandates Strict Reporting for Cross-Border Credit Card Transactions",
+        "impact": "Increases compliance friction for digital processors and fintech payment platforms",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PAYTM",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India-US Advance Interim Bilateral Trade Agreement Negotiations",
+        "impact": "Cements tariff predictability and opens global supply chain market share",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.6,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Drives Shift of Household Savings Into Pension Assets",
+        "impact": "Channels retail savings toward institutional equities away from physical gold",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCLIFE",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TITAN",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Global AI and Manufacturing Investments Intensify Capital Flow Competition",
+        "impact": "Higher foreign capital costs pressure domestic greenfield private infrastructure capex",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TATAELXSI",
+          "predicted_pct_today": 0.5,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ADANIENT",
+          "predicted_pct_today": -0.8,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India's Fiscal Deficit Widens to 41.9% of Annual Budget Target",
+        "impact": "Heightened sovereign borrowing risks elevate benchmark bond yields over time",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.3,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PNB",
+          "predicted_pct_today": -0.7,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Global Trade Friction Sparks Geopolitical Risk for Specialty Chemicals",
+        "impact": "Supply chain realignments disrupt chemical exports while benefiting domestic manufacturers",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "AARTIIND",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SRF",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-03",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "India Forex Reserves Fall Record $18.3 Billion Amid Rupee Defense",
+        "impact": "Rupee depreciation pressures exacerbate imported inflation across raw material buyers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US 10-Year Treasury Yield Surges to 5.34% Amid Bond Rout",
+        "impact": "Rising global borrowing costs trigger foreign institutional capital outflows from equities.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -1.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Extends RoDTEP Scheme and Hikes Export Insurance to 95%",
+        "impact": "Enhanced insurance mitigates transit risks for outbound sea shipments to West Asia.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "KPRMILL",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India September Manufacturing PMI Rebounds Sharply to 55.1",
+        "impact": "Accelerating factory output signals resilience in broader industrial operational demand.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Global LNG Supply Crunch Threatens Higher Winter Energy Costs",
+        "impact": "Spiking imported spot gas prices squeeze domestic city gas distribution margins.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IGL",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Weakest Monsoon Since 2015 Cuts FY27 Farm Growth Forecast",
+        "impact": "Subdued farm output threatens rural disposable incomes and consumer staple demand.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HEROMOTOCO",
+          "predicted_pct_today": -0.8,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Bill Targets Secondary Tariffs on Russian Crude Buyers",
+        "impact": "Threat of secondary sanctions complicates refiners feedstock pricing and export access.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "CIPLA",
+          "predicted_pct_today": 0.4,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": -1.0,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Strait of Hormuz Disruptions Keep Crude Between $90 and $100",
+        "impact": "Protracted elevated oil prices widen current account deficit and inflates subsidies.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.7,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.9,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre Absorbs Elevated Fertilizer Subsidies as Global Urea Costs Surge",
+        "impact": "Government fiscal support protects farm inputs while expanding sovereign subsidy bill.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "CHAMBLFERT",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TITAN",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Considers Extending PMEGP to 2030 With Rs 15,000 Crore",
+        "impact": "Extended subsidized micro-credit drives multi-year priority sector loan growth for banks.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.6,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CREDITACC",
+          "predicted_pct_today": -0.5,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-04",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Houthi Drone Strike Hits Saudi Aramco Facility in Riyadh",
+        "impact": "Spikes crude prices, squeezing marketing margins of state-owned fuel retailers.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.85,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Hikes Deepwater Natural Gas Cap to $9.89",
+        "impact": "Expands upstream producer realizations while increasing city gas feed costs.",
+        "category": "legislative",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IGL",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Forex Reserves Plunge Record $18.3 Billion Amid Rupee Defense",
+        "impact": "Tightens domestic interbank liquidity and pushes short-term money market yields higher.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BANKBARODA",
+          "predicted_pct_today": -0.85,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US 10-Year Yield Jumps to 5.34% in Bond Selloff",
+        "impact": "Triggers foreign fund outflows from high-multiple domestic financial and growth stocks.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Report Forecasts RBI Repo Rate Rising to 6% in FY27",
+        "impact": "Pressures borrowing costs and dampens demand for vehicle financing.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.35,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "US Graham Bill Threatens Tariffs Over Russian Crude Imports",
+        "impact": "Jeopardizes cheap feedstock advantages and threatens wider export market access.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.45,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -1.25,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Simplifies Institutional Shareholding Approvals for Commercial Banks",
+        "impact": "Attracts sustained domestic institutional capital inflows into top private banking franchises.",
+        "category": "legislative",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 11.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PNB",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Winter Gas Supply Crunch Looms Over Global Competition",
+        "impact": "Inflates long-term industrial energy bills and compresses downstream distributor margins.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 0.4,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "GUJGASLTD",
+          "predicted_pct_today": -0.8,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 6.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Warns Future Financial Crises Will Stem from Cyberattacks",
+        "impact": "Accelerates mandatory enterprise cybersecurity spending across systemic financial network institutions.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "INFY",
+          "predicted_pct_today": 0.6,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BANDHANBNK",
+          "predicted_pct_today": -0.65,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Finance Ministry Projects 7.3% Growth Amid External Trade Drag",
+        "impact": "Favors domestic infrastructure investment over export-oriented manufacturing and global discretionary services.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.65,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TECHM",
+          "predicted_pct_today": -0.55,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

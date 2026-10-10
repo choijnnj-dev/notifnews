@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-10",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "RBI Opens Dollar Window For OMCs To Defend Rupee",
+        "impact": "Direct foreign exchange allocation eases spot rupee pressure, benefiting refiners.",
+        "category": "macro",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "GST Council Scraps Arrest Powers And Eases Penalties",
+        "impact": "Decriminalization and quicker refunds improve corporate compliance and working capital.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "DELHIVERY",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "September Retail Inflation Likely At 23-Month High",
+        "impact": "Spiking food inflation reduces immediate prospects of monetary policy easing.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Road Ministry Extends Highway Cost Escalation Protection",
+        "impact": "Extended fuel compensation preserves operating margins for highway construction contractors.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Announces Rs 25,000 Crore OMO Bond Sale",
+        "impact": "Liquidity tightening lifts sovereign yields and dampens bank bond portfolios.",
+        "category": "macro",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SBIN",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India Joins 15-Nation Pact Against Industrial Overcapacity",
+        "impact": "Coordinated international action curbs predatory Chinese dumping in domestic manufacturing.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 0.6,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Food Industry Flags Severe 2027 Super El Nino Shock",
+        "impact": "Threat of structural crop failure threatens long-term agricultural raw material costs.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre Launches Rs 10,000 Crore MSME Growth Fund",
+        "impact": "Direct equity infusion strengthens domestic supply chains and manufacturing capacity.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BHARATFORG",
+          "predicted_pct_today": 0.5,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -0.4,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Rural Job Scheme Demand Jumps 25% In September",
+        "impact": "Persistent rural underemployment clouds volume recovery for entry-level consumer goods.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DABUR",
+          "predicted_pct_today": 0.3,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 2.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HEROMOTOCO",
+          "predicted_pct_today": -0.7,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India And ASEAN Accelerate Free Trade Pact Review",
+        "impact": "Tariff recalibration aims to protect domestic electronics and industrial manufacturers.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "UPL",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.1,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

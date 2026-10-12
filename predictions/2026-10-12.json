@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-12",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "RBI Opens Dedicated Dollar Window for State Oil Refiners",
+        "impact": "Relieves OMC currency procurement costs while steadying spot rupee demand.",
+        "category": "macro",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Sells \u20b925,000 Crore Government Bonds to Drain Liquidity",
+        "impact": "Tightens banking liquidity and pushes benchmark sovereign yields upwards.",
+        "category": "macro",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SBIN",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Lifts Sanctions on Global Russian Diesel Shipments",
+        "impact": "Depresses global diesel refining cracks while reducing domestic fuel costs.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": 1.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Middle East Conflict Drives Crude and Commodity Tanker Freights",
+        "impact": "Boosts carrier day-rates while increasing raw material landing expenses.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "GESHIP",
+          "predicted_pct_today": 1.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Persistent Inflation Spurs Projections of 100 Bps Rate Hikes",
+        "impact": "Escalates corporate borrowing costs and weighs heavily on rate-sensitive valuations.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "POWERGRID",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "GST Council Raises Prosecution Limit and Ends Arrest Powers",
+        "impact": "Significantly reduces corporate tax litigation exposure and enhances operating compliance.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "DMART",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CHOLAFIN",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Establishes \u20b910,000 Crore SME Equity Growth Fund",
+        "impact": "Infuses long-term risk capital into domestic industrial supply chain vendors.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "POLYCAB",
+          "predicted_pct_today": 0.7,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJAJ-AUTO",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Inks 15-Nation Pact Countering Industrial Excess Capacity",
+        "impact": "Protects domestic primary manufacturers against predatory foreign commodity dumping.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "JSWSTEEL",
+          "predicted_pct_today": 0.8,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 7.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.5,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Record El Nino Trajectory Endangers Agricultural Output and Incomes",
+        "impact": "Constrains rural disposable spending and prolongs elevated food price pressures.",
+        "category": "macro",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "M&M",
+          "predicted_pct_today": -0.9,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Initiates Bulk Logistics Corridor for Iraq Basmati Exports",
+        "impact": "Permanently reduces Gulf freight overheads, strengthening export market share.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "KRBL",
+          "predicted_pct_today": 1.2,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 9.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PATANJALI",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.2,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

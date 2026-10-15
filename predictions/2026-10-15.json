@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-15",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "WPI inflation surges to series high of 11.4%",
+        "impact": "Elevated raw material costs squeeze operating margins across manufacturing sectors.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": 0.85,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Maharashtra sugar mills begin early crushing ahead of festive season",
+        "impact": "Immediate supply additions dampen wholesale sugar realization prices for domestic millers.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India-US trade agreement nears conclusion ahead of high-level visit",
+        "impact": "Prospects of reduced bilateral tariffs bolster sentiment for domestic IT exporters.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "INFY",
+          "predicted_pct_today": 0.95,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SAIL",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Drought triggers higher crop insurance payouts across key southern states",
+        "impact": "Mounting agricultural loss claims pressure underwriting profitability of general insurers.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "PIIND",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "GICRE",
+          "predicted_pct_today": -1.35,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Houthis strike Aramco facility as crude prices show renewed volatility",
+        "impact": "Heightened Middle East supply risks threaten refining and marketing retail margins.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.05,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.25,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Draft data centre policy offers tax holidays until 2047",
+        "impact": "Decades-long incentives drive massive capital expenditure into domestic digital infrastructure.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BHARTIARTL",
+          "predicted_pct_today": 0.75,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IDEA",
+          "predicted_pct_today": -0.9,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India enforces principal purpose test on Mauritius investment treaties",
+        "impact": "Stricter anti-avoidance scrutiny increases tax liability risks for foreign capital.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "CDSL",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "KOTAKBANK",
+          "predicted_pct_today": -0.8,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Monsoon deficit cuts water storage and threatens Rabi crop sowing",
+        "impact": "Reduced farm output restrains rural purchasing power and tractor sales.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "JINDALSAW",
+          "predicted_pct_today": 0.65,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 9.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HEROMOTOCO",
+          "predicted_pct_today": -0.85,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government initiates steps to rebuild trade relations with China",
+        "impact": "Cheaper intermediate imports benefit assemblers while exposing domestic metal producers.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DIXON",
+          "predicted_pct_today": 0.9,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 15.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.75,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "IMF upgrades India medium-term GDP expansion rate to 7%",
+        "impact": "Upbeat macroeconomic trajectory sustains steady institutional capital reallocation into banks.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.65,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

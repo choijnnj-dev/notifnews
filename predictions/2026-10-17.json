@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-17",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "RBI Approves Emirates NBD India Branches Merger With RBL Bank",
+        "impact": "Inorganic branch accretion delivers immediate balance sheet expansion for RBL Bank.",
+        "category": "legislative",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "RBLBANK",
+          "predicted_pct_today": 1.75,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "FEDERALBNK",
+          "predicted_pct_today": -0.45,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Forex Reserves Drop $60 Billion Defending Weakening Rupee",
+        "impact": "Aggressive dollar sales drain domestic banking liquidity and lift funding yields.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.65,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Gulf Energy Asset Strikes Reignite Global Crude Supply Shock",
+        "impact": "Escalating Middle East military confrontations push up crude import landing bills.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "OIL",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.25,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "FEDAI Restricts Intermediary Bank Discretion on Exporter Forex Conversions",
+        "impact": "Exporters gain foreign exchange realization freedom, squeezing banking conversion commissions.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "CYIENT",
+          "predicted_pct_today": 0.85,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Political Hostility Mounts Against Indian Technology Worker Mobility",
+        "impact": "Renewed anti-immigrant rhetoric clouds sentiment across top Indian IT software exporters.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "IMF Projects India Overtaking Japan as Fourth Economy by 2027",
+        "impact": "Sustained economic leadership reinforces global passive asset allocations into Indian bellwethers.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.55,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BOSCHLTD",
+          "predicted_pct_today": -0.25,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "National Highway Awards Leap 62.9% in First Half Fiscal",
+        "impact": "Rapid highway project awards ensure strong multi-year revenue visibility for contractors.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.35,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Implements New Zealand Trade Pact Tariff Concession Notifications",
+        "impact": "Lower agricultural barriers expand maritime trade but introduce selective imported competition.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATACONSUM",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Threatens Tariff Sanctions on Sustained Russian Crude Purchases",
+        "impact": "Uncertain tariff waivers threaten the durability of Indian refiners' cheap feedstock.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": 0.5,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 7.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IOC",
+          "predicted_pct_today": -0.75,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Net Direct Tax Receipts Surge 13.2% Supporting Capital Budgeting",
+        "impact": "Strong revenue collection secures sovereign balance sheet cushion for state capex.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "NTPC",
+          "predicted_pct_today": 0.65,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

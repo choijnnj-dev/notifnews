@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-18",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "US Grants Temporary Tariff Waiver on Russian Oil Imports",
+        "impact": "Refiners sustain access to discounted crude without facing immediate sanctions.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ONGC",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Approves Emirates NBD India Merger With RBL Bank",
+        "impact": "Strategic branch consolidation strengthens mid-tier bank capitalization and asset presence.",
+        "category": "legislative",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "RBLBANK",
+          "predicted_pct_today": 2.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BANDHANBNK",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Gulf of Oman Tanker Fire Heightens Middle East Risks",
+        "impact": "Maritime transit tensions drive up crude benchmarks and transport fuel costs.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India September Crude Import Bill Surges 47 Percent",
+        "impact": "Mounting oil payments weigh on currency strength and automotive input costs.",
+        "category": "macro",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Implements Tariff Cuts on New Zealand Goods",
+        "impact": "Concessions expose domestic premium beverages and farm producers to import competition.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TRENT",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SULA",
+          "predicted_pct_today": -1.6,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Net Direct Tax Collections Rise 13.2 Percent",
+        "impact": "Buoyant corporate tax receipts enhance budgetary scope for long-term infrastructure funding.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US 60-Day Russian Oil Review Keeps Sanctions Threat Alive",
+        "impact": "Perpetual tariff overhang spurs structural shifts toward domestic energy alternatives.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": 0.5,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.7,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 4.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Kharif Soybean Output Slumps on Western State Droughts",
+        "impact": "Tighter oilseed supplies steadily squeeze processing margins for domestic edible refiners.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "GODREJAGRO",
+          "predicted_pct_today": 0.5,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "AWL",
+          "predicted_pct_today": -0.8,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "China Signals Talks to Lower Indian Trade Imbalance",
+        "impact": "Market access breakthroughs could unlock multi-year export pipelines for Indian pharmaceuticals.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Wholesale Inflation Climbs to 6.3 Percent",
+        "impact": "Sticky global inflation delays monetary easing, capping sustained foreign portfolio allocations.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HCLTECH",
+          "predicted_pct_today": 0.4,
+          "timeframe": "3 months",
+          "overall_direction": "up",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": -0.6,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 4.1,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

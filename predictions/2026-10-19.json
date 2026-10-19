@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-19",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "RBI Approves Emirates NBD Merger With RBL Bank",
+        "impact": "Boosts branch network and deposit base for midcap private lender.",
+        "category": "legislative",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "RBLBANK",
+          "predicted_pct_today": 2.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "FEDERALBNK",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Nears India Trade Pact With Russian Oil Sanction Waivers",
+        "impact": "Secures uninterrupted discount Russian crude supplies for Indian downstream refiners.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 1.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India September Services Trade Surplus Contracts Ten Percent",
+        "impact": "Weakening services surplus widens external deficit, hurting IT sector sentiment.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Surging Feed Costs Inflict Steep Losses on Poultry Farmers",
+        "impact": "Sharp livestock grain price inflation directly compresses poultry operating margins.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "GODREJAGRO",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VENKEYS",
+          "predicted_pct_today": -2.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Possible November Fuel Price Hike Threatens Inflation Target",
+        "impact": "Improves marketing margins for state refiners while hurting consumer vehicle demand.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Government Plans \u20b925,000-Crore Textile Worker Skilling Outlay",
+        "impact": "Improves long-term export quality and capacity for major apparel manufacturers.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "KPRMILL",
+          "predicted_pct_today": 1.2,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PAGEIND",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Kharif Soybean Production Seen Declining 2.1 Percent",
+        "impact": "Tighter domestic supplies will elevate procurement costs for packaged food companies.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "PATANJALI",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NESTLEIND",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "FPIs Protest Income Tax Department Use of Anti-Avoidance Rules",
+        "impact": "Tax enforcement uncertainty threatens long-term foreign institutional equity allocation.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.4,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": -0.8,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Exporters May Face Mandatory Indirect Scope 3 Emissions Tracking",
+        "impact": "Imposes long-term compliance and decarbonisation capital expenditures on heavy exporters.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SUZLON",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 16.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.7,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 6.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Indigenisation Push Deepens With New Naval Warship Commissioning",
+        "impact": "Reinforces multi-year domestic defence manufacturing order pipelines for state shipyards.",
+        "category": "geopolitical",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "MAZDOCK",
+          "predicted_pct_today": 1.5,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 18.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

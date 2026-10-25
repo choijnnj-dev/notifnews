@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-25",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Core sector growth accelerates to 7.9% in September",
+        "impact": "Boosts heavy industrial sentiment; infrastructure and metals demand expands.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CHAMBLFERT",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI MPC minutes reveal hawkish calibrated tightening bias",
+        "impact": "Higher rate expectations compress real estate liquidity while aiding margins.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Middle East oil imports recover to pre-war volumes",
+        "impact": "Normalizing crude shipments eases raw material pressure on refiners.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "BPCL",
+          "predicted_pct_today": 1.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ONGC",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India private sector PMI reaches four-month high",
+        "impact": "Accelerating order books stimulate corporate credit and economic momentum.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Anti-dumping duty reimposed on Chinese titanium dioxide imports",
+        "impact": "Increases paint manufacturing input costs while shielding domestic chemical makers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DCW",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASIANPAINT",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Target of 500 GW clean energy requires major grid upgrades",
+        "impact": "Accelerates long-term transmission capex while diminishing fossil-fuel reliance.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "POWERGRID",
+          "predicted_pct_today": 0.6,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "COALINDIA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India-Russia bilateral trade targeted to reach $100 billion",
+        "impact": "Secures discounted long-term crude trade flows amid geopolitical realignment.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 0.8,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": -0.3,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "German industrials plan multi-year manufacturing expansion across India",
+        "impact": "Drives private capital goods order books and foreign manufacturing partnerships.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SIEMENS",
+          "predicted_pct_today": 1.0,
+          "timeframe": "3 years",
+          "overall_direction": "up",
+          "overall_pct": 22.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.5,
+          "timeframe": "3 years",
+          "overall_direction": "down",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Highway asset monetisation pipeline proceeds with second InvIT",
+        "impact": "Facilitates balance-sheet deleveraging and asset recycling for highway operators.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "IRB",
+          "predicted_pct_today": 1.2,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 11.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PNB",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre achieves 11 crore digital farmer ID milestone under AgriStack",
+        "impact": "Improves formal agri-subsidy delivery while curbing high-yield unorganized rural borrowing.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": 0.9,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 13.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "M&MFIN",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

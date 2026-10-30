@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-30",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Four Tankers Catch Fire After Hormuz Mine Strikes",
+        "impact": "Surging crude prices elevate upstream revenues while penalizing downstream fuel retailers.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.95,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.15,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Industrial Output Growth Moderates to 6.7 Percent in September",
+        "impact": "Slowing manufacturing momentum weighs on consumer durables while defensives gain favour.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.35,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "VOLTAS",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Supreme Court Appoints Sole Mediator for KG Basin Dispute",
+        "impact": "Mediation progress eases regulatory overhang for state explorer while prolonging operator litigation.",
+        "category": "legislative",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": -0.45,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Centre Notifies National Social Security Board for Gig Workers",
+        "impact": "Mandatory welfare contributions threaten operating margins of online delivery aggregators.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TEAMLEASE",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ZOMATO",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Finance Ministry Highlights Capital Outflow Pressures From US Yields",
+        "impact": "Elevated global yields threaten banking valuations while IT exporters benefit from weakness.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.55,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": -0.75,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India-EU Free Trade Agreement Slated for Mid-2027 Implementation",
+        "impact": "Tariff reductions open European markets for apparel but raise competition for automakers.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "GOKEX",
+          "predicted_pct_today": 0.8,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Public Debt Ratio Projected to Fall to 75 Percent",
+        "impact": "Fiscal consolidation reduces sovereign risk premiums and lowers long-term funding costs.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.4,
+          "timeframe": "24 months",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NBCC",
+          "predicted_pct_today": -0.2,
+          "timeframe": "24 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Industrial Credit Nears 20 Percent Indicating Sustained Capex Revival",
+        "impact": "Strong balance-sheet lending underpins multi-year order backlogs across core infrastructure.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.65,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 16.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.25,
+          "timeframe": "18 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "IMF Highlights Latent Super El Nino Agricultural Growth Risks",
+        "impact": "Uncertain weather patterns threaten rural farm income and depress tractor demand.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "COROMANDEL",
+          "predicted_pct_today": 0.35,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ESCORTS",
+          "predicted_pct_today": -0.6,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 8.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "World Bank Records Historic Drop in Indian Poverty Rate",
+        "impact": "Rising disposable income among newly formalised households expands essential consumption.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "DABUR",
+          "predicted_pct_today": 0.3,
+          "timeframe": "24 months",
+          "overall_direction": "up",
+          "overall_pct": 10.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "UPL",
+          "predicted_pct_today": -0.2,
+          "timeframe": "24 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

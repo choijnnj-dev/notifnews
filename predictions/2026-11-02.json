@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-02",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Govt Scraps Petrol Export Tax, Raises Levies on ATF",
+        "impact": "Boosts refiners exporting petrol while raising fuel burden on domestic airlines",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": -1.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "October GST Revenue Jumps 22.9% Driven by Festive Demand",
+        "impact": "Bolsters consumer sentiment and signals robust domestic consumer spending momentum",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "October Manufacturing PMI Moderates to 54.7 on Slower Orders",
+        "impact": "Weighs on domestic industrial output despite resilient export order volumes",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BHARATFORG",
+          "predicted_pct_today": 0.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "West Asia Crisis Lifts Corporate Working Capital Credit Demand",
+        "impact": "Expands bank loan books while elevating financing costs for manufacturers",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Bangladesh Garment Wage Unrest Threatens Global Apparel Shipments",
+        "impact": "Directs global apparel procurement orders to Indian garment manufacturers",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "GOKEX",
+          "predicted_pct_today": 1.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARICO",
+          "predicted_pct_today": -0.9,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "India and EU Advance Free Trade Agreement Implementation",
+        "impact": "Expands bilateral export access while opening domestic market to European competition",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "MOTHERSON",
+          "predicted_pct_today": 0.8,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATAMOTORS",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "China Tightens Tunnel Boring Equipment Exports to India",
+        "impact": "Delays domestic tunneling execution while boosting indigenous heavy engineering suppliers",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BEML",
+          "predicted_pct_today": 1.0,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 6.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "LT",
+          "predicted_pct_today": -0.6,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Government Forms High-Level Panel for Long-Term Banking Reforms",
+        "impact": "Accelerates banking modernization favoring top-tier lenders over weaker peers",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.5,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PNB",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 3.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Goldman Sachs Projects India to Meet FY27 Fiscal Target",
+        "impact": "Anchors sovereign bond yields and enhances foreign institutional inflows",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.6,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "POWERGRID",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 2.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "SEBI Deploys AI Surveillance to Delist Dormant Penny Stocks",
+        "impact": "Strengthens market integrity and diverts retail trading activity to established equities",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BSE",
+          "predicted_pct_today": 0.9,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 9.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ANGELONE",
+          "predicted_pct_today": -0.7,
+          "timeframe": "3 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

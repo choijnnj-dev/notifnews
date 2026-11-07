@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-07",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "DGTR proposes quantitative import limits on soda ash",
+        "impact": "Protects domestic basic chemical manufacturers against cheaper overseas import dumping",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TATACHEM",
+          "predicted_pct_today": 2.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "October consumer inflation seen nearing RBI tolerance ceiling",
+        "impact": "Persistent food inflation dashes expectations of imminent policy rate reductions",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Persian Gulf tanker strike escalates regional maritime risks",
+        "impact": "Surging crude shipping risk premia pressures domestic fuel consuming industries",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.6,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": -1.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Early sugar production surges to 12.85 lakh tonnes",
+        "impact": "Strong crushing startup boosts volume outlook for integrated sugar millers",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": 2.1,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Rising domestic bond yields squeeze commercial banks' treasury gains",
+        "impact": "Higher benchmark yields trigger mark-to-market trading book provisions for lenders",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "MUTHOOTFIN",
+          "predicted_pct_today": 0.9,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SBIN",
+          "predicted_pct_today": -1.3,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "States' capital expenditure projected to expand 10-12% in FY27",
+        "impact": "Sustained central infrastructure support accelerates order pipeline for engineering conglomerates",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 1.1,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.4,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Finance Ministry considers capital gains tax relief for FPIs",
+        "impact": "Potential tax concessions may stem persistent institutional foreign capital outflows",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 1.3,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PAYTM",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "NHAI standardises nationwide barrier-free multi-lane toll infrastructure",
+        "impact": "Modernised highway network increases traffic velocity and improves concessionaire revenues",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "IRB",
+          "predicted_pct_today": 1.5,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ASHOKA",
+          "predicted_pct_today": -0.6,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US midterm shift creates opening for expedited trade bilateral",
+        "impact": "Tempered Washington stance reduces tariff headwinds for export-focused technology firms",
+        "category": "geopolitical",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "INFY",
+          "predicted_pct_today": 1.2,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TATASTEEL",
+          "predicted_pct_today": -0.8,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Rising rural food costs crowd out discretionary consumer spending",
+        "impact": "High food share in wallet strains demand for entry-level durables",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "NESTLEIND",
+          "predicted_pct_today": 0.7,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HEROMOTOCO",
+          "predicted_pct_today": -1.1,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 7.8,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

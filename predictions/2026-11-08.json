@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-08",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "DGTR Proposes Two-Year Quantitative Restrictions on Soda Ash Imports",
+        "impact": "Domestic chemical producers gain pricing power while detergent manufacturers face margin pressure.",
+        "category": "legislative",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "TATACHEM",
+          "predicted_pct_today": 1.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HINDUNILVR",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Hormuz Tanker Incidents Push Oil Shipping Freight Rates Sharply Higher",
+        "impact": "Escalating transit risks lift maritime transport tariffs and pinch refiner margins.",
+        "category": "geopolitical",
+        "source": "The Hindu",
+        "gainer": {
+          "ticker": "SCI",
+          "predicted_pct_today": 2.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.3,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "October Food Prices Expected to Push Inflation Near RBI Ceiling",
+        "impact": "Anticipated inflation spike delays interest rate cuts, dampening rate-sensitive bank valuations.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BANKBARODA",
+          "predicted_pct_today": -1.4,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Mandatory Price Reductions on Oncology Medicines Effective November 9",
+        "impact": "Immediate cap on anti-cancer drug prices compresses domestic pharmaceutical formulations realizations.",
+        "category": "legislative",
+        "source": "PIB India",
+        "gainer": {
+          "ticker": "APOLLOHOSP",
+          "predicted_pct_today": 0.7,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NATCOPHARM",
+          "predicted_pct_today": -1.9,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Surging Benchmark Bond Yields Hit Bank Treasury Investment Earnings",
+        "impact": "Mark-to-market investment book losses threaten quarterly net profitability for public lenders.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PNB",
+          "predicted_pct_today": -1.5,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Finance Ministry Signals Possible Capital Gains Tax Revisions Ahead",
+        "impact": "Potential easing of taxation could structurally arrest foreign portfolio investment outflows.",
+        "category": "legislative",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "BSE",
+          "predicted_pct_today": 1.4,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 12.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CIPLA",
+          "predicted_pct_today": -0.4,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 3.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "States Capital Outlay Growth Projected at 10-12% for FY27",
+        "impact": "Accelerating state infrastructure expenditure guarantees multi-year order visibility for construction majors.",
+        "category": "macro",
+        "source": "Economic Times",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 1.1,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 11.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "NESTLEIND",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 4.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Weak Monsoon Strains India 20% Fuel Ethanol Blending Target",
+        "impact": "Food security priorities reduce grain allocation, capping long-term ethanol distillery utilization.",
+        "category": "macro",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 0.6,
+          "timeframe": "9 months",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -1.3,
+          "timeframe": "9 months",
+          "overall_direction": "down",
+          "overall_pct": 9.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Midterm Shifts Provide Stability for Bilateral Trade Negotiations",
+        "impact": "Reduced risk of retaliatory tariffs stabilizes multi-year earnings visibility for exporters.",
+        "category": "geopolitical",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "INFY",
+          "predicted_pct_today": 1.0,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 7.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ONGC",
+          "predicted_pct_today": -0.5,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Indian Oil to Acquire Dedicated Carriers Amid Persistent Hormuz Disruptions",
+        "impact": "Energy firms transition toward captive fleets, stimulating domestic shipyard order pipelines.",
+        "category": "geopolitical",
+        "source": "Livemint",
+        "gainer": {
+          "ticker": "COCHINSHIP",
+          "predicted_pct_today": 1.7,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 15.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "HPCL",
+          "predicted_pct_today": -0.8,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

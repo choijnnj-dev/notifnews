@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-17",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "Centre Hikes Windfall Tax on Diesel and ATF Exports",
+        "impact": "Higher export levies dent refining margins while securing domestic fuel availability.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "INDIGO",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": -0.65,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "October Trade Deficit Hits 1-Year High of $39.88 Billion",
+        "impact": "Widening deficit strains rupee stability, hitting import-heavy retailers while aiding software exporters.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TCS",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TITAN",
+          "predicted_pct_today": -0.6,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "October WPI Remains in Double Digits as Inflation Rises",
+        "impact": "Persistent price pressures dampen immediate rate cut expectations, hurting rate-sensitive sectors.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.35,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "DLF",
+          "predicted_pct_today": -0.75,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Sugar Output Doubles to 23.59 Lakh Tonnes Early",
+        "impact": "Surging early season output softens wholesale sweetener prices, aiding FMCG input margins.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BRITANNIA",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BALRAMCHIN",
+          "predicted_pct_today": -0.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Cancels Registration Certificates of 49 NBFC Entities",
+        "impact": "Regulatory crackdown prompts capital rotation into well-capitalized, Tier-1 systemic non-bank lenders.",
+        "category": "legislative",
+        "source": "RBI - Press Releases",
+        "gainer": {
+          "ticker": "BAJFINANCE",
+          "predicted_pct_today": 0.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MANAPPURAM",
+          "predicted_pct_today": -0.7,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "China Proposes Solar Tech Export Curbs Straining Manufacturers",
+        "impact": "Technology export restrictions delay domestic solar installations and escalate equipment capex.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "TATAPOWER",
+          "predicted_pct_today": 0.3,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 6.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "ADANIGREEN",
+          "predicted_pct_today": -0.5,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.2,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Economists Advise Against Capital Gains Tax Relief Ahead Budget",
+        "impact": "Retaining capital gains taxes tempers projected equity retail volume expansion on exchanges.",
+        "category": "legislative",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ICICIBANK",
+          "predicted_pct_today": 0.3,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 4.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BSE",
+          "predicted_pct_today": -0.6,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India and Egypt Target $12 Billion Bilateral Trade Deal",
+        "impact": "Bilateral trade targets expand overseas infrastructure orders and industrial engineering export pipelines.",
+        "category": "geopolitical",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.4,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 7.2,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BHEL",
+          "predicted_pct_today": -0.3,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 3.8,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "IOC Receives Approval for Commercial Sustainable Aviation Fuel Supply",
+        "impact": "Commercial SAF rollouts enhance refiner green portfolios but raise airline operational expenses.",
+        "category": "legislative",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "IOC",
+          "predicted_pct_today": 0.4,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 5.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "SPICEJET",
+          "predicted_pct_today": -0.55,
+          "timeframe": "18 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "UBI Projects India CAD Widening to 1.2% in FY27",
+        "impact": "Sustained trade imbalances weaken rupee, benefiting export healthcare while straining state refiners.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "SUNPHARMA",
+          "predicted_pct_today": 0.35,
+          "timeframe": "1 year",
+          "overall_direction": "up",
+          "overall_pct": 5.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -0.45,
+          "timeframe": "1 year",
+          "overall_direction": "down",
+          "overall_pct": 4.2,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}

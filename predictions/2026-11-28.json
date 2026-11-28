@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-28",
+  "digest": {
+    "short_term": [
+      {
+        "headline": "RBI Steps Up Scrutiny on Gold Loan Collateral Risks",
+        "impact": "Triggers immediate asset quality concerns and tighter margins for specialized NBFCs.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "HDFCBANK",
+          "predicted_pct_today": 0.45,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MANAPPURAM",
+          "predicted_pct_today": -2.1,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "US Threatens Up to 25% Tariffs on Indian Exports",
+        "impact": "Pressures export-oriented sectors pending potential bilateral trade concession outcomes.",
+        "category": "geopolitical",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.35,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "TCS",
+          "predicted_pct_today": -1.25,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Global Apparel Brands Divert $254M Orders to India",
+        "impact": "Boosts order books for domestic textile manufacturers amid regional instability.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "GOCLIND",
+          "predicted_pct_today": 1.8,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "PAGEIND",
+          "predicted_pct_today": -0.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Middle East Tensions Escalate as Hormuz Route Threatened",
+        "impact": "Lifts domestic upstream crude realizations while squeezing fuel refiner margins.",
+        "category": "geopolitical",
+        "source": "The Hindu - International",
+        "gainer": {
+          "ticker": "ONGC",
+          "predicted_pct_today": 1.3,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "BPCL",
+          "predicted_pct_today": -1.45,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Govt Warns Inflation to Rise on Supply Disruptions",
+        "impact": "Dampens consumer discretionary sentiment on fears of prolonged elevated rates.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ITC",
+          "predicted_pct_today": 0.4,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MARUTI",
+          "predicted_pct_today": -0.95,
+          "baseline_price": null
+        }
+      }
+    ],
+    "long_term": [
+      {
+        "headline": "Gadkari Announces Rs 1 Lakh Crore Bengal Road Projects",
+        "impact": "Drives multi-year order intake and revenue visibility for infrastructure developers.",
+        "category": "legislative",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "LT",
+          "predicted_pct_today": 0.75,
+          "timeframe": "12 months",
+          "overall_direction": "up",
+          "overall_pct": 14.5,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "IRB",
+          "predicted_pct_today": -0.3,
+          "timeframe": "12 months",
+          "overall_direction": "down",
+          "overall_pct": 5.0,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Strategic Manufacturing Sectors to Generate 50 Lakh Jobs",
+        "impact": "Strengthens capital expenditure cycles and long-term order flows for heavy industrials.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "BHEL",
+          "predicted_pct_today": 0.9,
+          "timeframe": "2 years",
+          "overall_direction": "up",
+          "overall_pct": 22.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "INFY",
+          "predicted_pct_today": -0.2,
+          "timeframe": "2 years",
+          "overall_direction": "down",
+          "overall_pct": 4.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "RBI Repatriates Sovereign Gold Amid Rising Global Uncertainty",
+        "impact": "Alters sovereign risk management; dampens speculative domestic gold trading appetite.",
+        "category": "macro",
+        "source": "Livemint - Economy",
+        "gainer": {
+          "ticker": "SBIN",
+          "predicted_pct_today": 0.5,
+          "timeframe": "6 months",
+          "overall_direction": "up",
+          "overall_pct": 8.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "MUTHOOTFIN",
+          "predicted_pct_today": -0.8,
+          "timeframe": "6 months",
+          "overall_direction": "down",
+          "overall_pct": 9.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "India Targets $1 Trillion Export Milestone by 2027",
+        "impact": "Expands structural export capacity, supporting port logistics and shipping infrastructure.",
+        "category": "macro",
+        "source": "Economic Times - Economy",
+        "gainer": {
+          "ticker": "ADANIPORTS",
+          "predicted_pct_today": 0.85,
+          "timeframe": "Starts March 2027",
+          "overall_direction": "up",
+          "overall_pct": 18.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "CONCOR",
+          "predicted_pct_today": -0.25,
+          "timeframe": "Starts March 2027",
+          "overall_direction": "down",
+          "overall_pct": 3.5,
+          "baseline_price": null
+        }
+      },
+      {
+        "headline": "Parliament Delimitation Bill Sparks Centre-State Political Standoff",
+        "impact": "Heightens political friction, threatening smooth rollout of nationwide legislative reforms.",
+        "category": "legislative",
+        "source": "The Hindu - National",
+        "gainer": {
+          "ticker": "BEL",
+          "predicted_pct_today": 0.35,
+          "timeframe": "18 months",
+          "overall_direction": "up",
+          "overall_pct": 12.0,
+          "baseline_price": null
+        },
+        "loser": {
+          "ticker": "RELIANCE",
+          "predicted_pct_today": -0.45,
+          "timeframe": "18 months",
+          "overall_direction": "down",
+          "overall_pct": 6.0,
+          "baseline_price": null
+        }
+      }
+    ]
+  }
+}
